@@ -1,30 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using ViewModel.ViewModels.UserViewModel;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-
-using Microsoft.IdentityModel.Tokens;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.IO;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-
-using System.Net.Mail;
-using HelperData;
-using DataAccessLayer.Services;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using Microsoft.AspNetCore.SignalR;
+﻿using HelperDatas.PaginationsClasses;
 using ImplementDAL.Services;
-using HelperDatas.PaginationsClasses;
-using ImplementDAl.Services;
-using ViewModels.CommonViewModel;
+using Microsoft.AspNetCore.SignalR;
+using System.IdentityModel.Tokens.Jwt;
+using System.Net.Mail;
+using System.Security.Claims;
+using ViewModel.ViewModels.UserViewModel;
 using ViewModels.UserViewModel;
 
 namespace BookApplication.Controllers
@@ -295,14 +275,17 @@ public class AuthsController : BaseController
         }
 
     }
+    
 
+
+    // update new password of user 
+    // first we find user by email... than change it password 
     [HttpPut("UpdatePassword")]
 
     public async Task<IActionResult> UpdatePassword(ChangePasswordDto model)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
-
-        var obj = await _userService.GetUser(model.Id);
+        var obj = await _userService.UserEmailAlreadyExitForVerify(model.Email); 
         if (obj != null)
         {
             await _userService.ChangePassword(obj, model);
@@ -317,22 +300,57 @@ public class AuthsController : BaseController
             return Ok(_response);
         }
     }
-    [HttpGet("verifyEmailCodeAndEmail/{email}")]
+
+
+    //[HttpPut("UpdatePassword")]
+
+    //public async Task<IActionResult> UpdatePassword(ChangePasswordDto model)
+    //{
+    //    if (!ModelState.IsValid) return BadRequest(ModelState);
+
+    //    var obj = await _userService.GetUser(model.Id);
+    //    if (obj != null)
+    //    {
+    //        await _userService.ChangePassword(obj, model);
+    //        _response.Success = true;
+    //        _response.Message = CustomMessage.Updated;
+    //        return Ok(_response);
+    //    }
+    //    else
+    //    {
+    //        _response.Success = false;
+    //        _response.Message = CustomMessage.RecordNotFound;
+    //        return Ok(_response);
+    //    }
+    //}
+
+
+
+
+
+    // user send email .
+    // email if exist than it send mail to user . if emai not exist than it show error email is invaild 
+    // genereate the auto code and save in table. 
+
+    [HttpGet("VerifyedEmailCodeAndEmail/{email}")]
     public async Task<IActionResult> VerifyedEmailCodeAndEmail(string email)
     {
         MailMessage mm = new MailMessage();
         SmtpClient smtp = new SmtpClient();
 
         var objUsers = await _userService.UserEmailAlreadyExitForVerify(email);
-        if (objUsers != null)
-        {
-
-            if (objUsers.Email.Length > 0 && email.Trim() == objUsers.Email)
-            {
-                _response.Message = CustomMessage.EmailAlreadyExist;
-            }
-
+        if(objUsers == null) {
+            return Ok(new { Success = false, Message = CustomMessage.InvalidEmail });
         }
+        //if (objUsers != null)
+        //{
+
+        //    if (objUsers.Email.Length > 0 && email.Trim() == objUsers.Email)
+        //    {
+        //        _response.Message = CustomMessage.EmailAlreadyExist;
+        //    }
+
+        //}
         else
         {
             Random randomNumber = new Random();
@@ -342,10 +360,10 @@ public class AuthsController : BaseController
                 Email = email,
                 Code = randomNumberString.ToInt32(),
             };
-            await _userService.VerifyEmailCodeAndEmail(ObjVerification);
-            mm.From = new MailAddress("FabIntelLahore@gmail.com", "FabIntel", Encoding.UTF8);
+            await _userService.EmailVerificationCodeSave(ObjVerification);
+            mm.From = new MailAddress("Waheedullah472@gmail.com", "FabIntel", Encoding.UTF8);
             mm.To.Add(new MailAddress(email));
-            mm.Subject = "FabTime Email Verification Code  ";
+            mm.Subject = " Email Verification Code  ";
             mm.Body = "Your Verifcation Code is " + randomNumberString;
 
             mm.IsBodyHtml = true;
@@ -359,18 +377,25 @@ public class AuthsController : BaseController
             smtp.Credentials = NetworkCred;
             smtp.Port = 587; //Gmail port for e-mail 465 or 587
             smtp.Send(mm);
+            smtp.Dispose();
+            return Ok(new { Success = true, Message = CustomMessage.Added });
         }
-        return Ok(_response);
+        
     }
-    [HttpGet("verifyEmailCodeAndEmailCheck/{emailAddress}/{code}")]
-    public async Task<IActionResult> verifyEmailCodeAndEmailCheck(string emailAddress, int code)
+
+    // Email and code 
+    // user enter code to verify  . that come from gmail ... mean code... 
+    // we comfir it with database code that we save it 
+
+    [HttpPost("VerifyEmailCodeAndEmailCheck")] 
+    public async Task<IActionResult> VerifyEmailCodeAndEmailCheck(VerifyEmailCodeViewModel verify)
     {
         if (!ModelState.IsValid)
         {
             return BadRequest(ModelState);
         }
 
-        var objCode = await _userService.verifyEmailCodeAndEmailCheck(emailAddress);
+        var objCode = await _userService.verifyEmailCodeAndEmailCheck(verify.Email, verify.Code); 
         if (objCode == null)
         {
 
@@ -380,7 +405,7 @@ public class AuthsController : BaseController
         }
         else
         {
-            if (objCode.Code == code)
+            if (objCode.Code == verify.Code)
             {
                 _response.Success = true;
                 _response.Message = "Code Verified";
@@ -391,6 +416,27 @@ public class AuthsController : BaseController
         return Ok(_response);
 
     }
+
+
+
+
+
+    [HttpGet("UserEmailAlreadyExitForVerify/{Email}")]
+    public async Task<IActionResult> UserEmailAlreadyExitForVerify(string Email)
+    { 
+        var obj = await _userService.UserEmailAlreadyExitForVerify(Email);
+        if (obj != null)
+        {
+            return Ok(new {  Success = true, Message = CustomMessage.VerifyEmail });
+        }
+        else
+        {
+            return Ok(new { Success = false, Message = CustomMessage.InvalidEmail });
+        }
+ 
+
+    }
+
 
     [HttpPost("UserActivitation")]
     public async Task<IActionResult> UserActivitation(UserActiveModel model)

@@ -4,6 +4,8 @@
     public class CustomMessage
     {
     public const string Added = "Record(s) added successfully";
+    public const string VerifyEmail = "Email Have Been Verified ";
+    public const string InvalidEmail = "Email are Invalid ";
     public const string RecordExits = "Record(s) Have Deleted, Create New Account";
     public const string DataNotExit = "Record(s) Not Exit ";
     public const string Updated = "Record(s) updated successfully";

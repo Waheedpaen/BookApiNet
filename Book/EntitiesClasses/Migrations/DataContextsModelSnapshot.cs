@@ -230,6 +230,26 @@ namespace EntitiesClasses.Migrations
                     b.ToTable("BookImages");
                 });
 
+            modelBuilder.Entity("EntitiesClasses.Entities.EmailVerificationCode", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Code")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EmailVerificationCodes");
+                });
+
             modelBuilder.Entity("EntitiesClasses.Entities.FarqaCategory", b =>
                 {
                     b.Property<int>("Id")

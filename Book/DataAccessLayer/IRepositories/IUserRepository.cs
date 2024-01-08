@@ -28,10 +28,10 @@ public interface IUserRepository : IRepository<User, int>
     Task<int> GetUserCount();
     Task<User> GetUser(int userId);
     Task<List<User>> SearchingData(string name);
-    Task<EmailVerificationCode> verifyEmailCodeAndEmail(EmailVerificationCode model);
+    Task<EmailVerificationCode> EmailVerificationCodeSave(EmailVerificationCode model);
 
     Task<bool> UserPhoneAlreadyExit(string Name);
-    Task<EmailVerificationCode> verifyEmailCodeAndEmailCheck(string emailAddress);
+    Task<EmailVerificationCode> verifyEmailCodeAndEmailCheck(string emailAddress,int code);
      Task<bool> UserHaveDeleted(string Email); 
      Task<bool> AssignRoleToUser(AssignRoleToUserModel model);
 

@@ -249,25 +249,11 @@ public  class UserRepository :  Reporsitory<User, int>, IUserRepository
         return await Context.Set<UserTypes>().ToListAsync();
     }
 
-    public async Task<EmailVerificationCode> verifyEmailCodeAndEmail(EmailVerificationCode model)
-    {
-       
-        await Context.Set<EmailVerificationCode>().AddAsync(model);
-        return model;
-      
-    }
 
-    public async Task<User> UserEmailAlreadyExitForVerify(string emailAddress)
-    {
-        var data = await Context.Set<User>().Where(data => data.Email == emailAddress).FirstOrDefaultAsync();
-        return data;
-    }
 
-    public async Task<EmailVerificationCode> verifyEmailCodeAndEmailCheck(string emailAddress)
-    {
-         var data = await Context.Set<EmailVerificationCode>().Where(x => x.Email == emailAddress).FirstOrDefaultAsync();
-        return data;
-    }
+
+
+  
 
     public async Task<bool> ActiveOrDeactiveUser(UserActiveModel model)
     {
@@ -296,5 +282,52 @@ public  class UserRepository :  Reporsitory<User, int>, IUserRepository
             return false;
         } 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    public async Task<User> UserEmailAlreadyExitForVerify(string emailAddress)
+    {
+        var data = await Context.Set<User>().Where(data => data.Email == emailAddress).FirstOrDefaultAsync();
+        return data;
+    }
+
+
+
+
+    public async Task<EmailVerificationCode> verifyEmailCodeAndEmailCheck(string emailAddress, int code )
+    {
+        var data = await Context.Set<EmailVerificationCode>().Where(x => x.Email == emailAddress && x.Code == code).FirstOrDefaultAsync();
+        return data;
+    }
+
+    public async Task<EmailVerificationCode> EmailVerificationCodeSave(EmailVerificationCode model)
+    {
+
+        await Context.Set<EmailVerificationCode>().AddAsync(model);
+        return model;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
  

@@ -147,16 +147,16 @@ catch (Exception ex)
         throw new NotImplementedException();
     }
 
-    public async Task<EmailVerificationCode> VerifyEmailCodeAndEmail(EmailVerificationCode model)
+    public async Task<EmailVerificationCode> EmailVerificationCodeSave(EmailVerificationCode model)
     {
-        var userData = await _unitOfWork.IUserRepository.verifyEmailCodeAndEmail(model);
+        await _unitOfWork.IUserRepository.EmailVerificationCodeSave(model);
         await _unitOfWork.CommitAsync();
         return model;
     }
 
-    public async Task<EmailVerificationCode> verifyEmailCodeAndEmailCheck(string emailAddress)
+    public async Task<EmailVerificationCode> verifyEmailCodeAndEmailCheck(string emailAddress, int code)
     {
-       return await _unitOfWork.IUserRepository.verifyEmailCodeAndEmailCheck(emailAddress);
+       return await _unitOfWork.IUserRepository.verifyEmailCodeAndEmailCheck(emailAddress, code);
     }
 
     public async Task<bool> ActiveOrDeactiveUser(UserActiveModel model)

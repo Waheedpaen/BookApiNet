@@ -16,3 +16,16 @@ C:\Users\Wa\Documents\GitHub\BookApi\Book\HelperDatas\obj\Debug\net7.0\HelperDat
 C:\Users\Wa\Documents\GitHub\BookApi\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.AssemblyInfo.cs
 C:\Users\Wa\Documents\GitHub\BookApi\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.csproj.CoreCompileInputs.cache
 C:\Users\Wa\Documents\GitHub\BookApi\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.sourcelink.json
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\bin\Debug\net7.0\HelperDatas.deps.json
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\bin\Debug\net7.0\HelperDatas.dll
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\bin\Debug\net7.0\HelperDatas.pdb
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.csproj.AssemblyReference.cache
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.AssemblyInfoInputs.cache
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.AssemblyInfo.cs
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.csproj.CoreCompileInputs.cache
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.sourcelink.json
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.dll
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\refint\HelperDatas.dll
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\HelperDatas.pdb
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\HelperDatas\obj\Debug\net7.0\ref\HelperDatas.dll

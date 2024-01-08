@@ -25,7 +25,7 @@ namespace EntitiesClasses.DataContext;
     public DbSet<GroupMessage> GroupMessages { get; set; }
     public DbSet<News>    News { get; set; }
 
-
+    public DbSet<EmailVerificationCode>  EmailVerificationCodes { get; set; }
     public DbSet<MadrassaBookCatgory> MadrassaBookCatgories { get; set; }
     public DbSet<Scholar> Scholars { get; set; }
     public DataContexts(DbContextOptions<DataContexts> options) : base(options)
