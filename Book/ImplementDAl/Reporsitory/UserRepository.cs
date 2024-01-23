@@ -317,17 +317,11 @@ public  class UserRepository :  Reporsitory<User, int>, IUserRepository
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    public async Task<Visitors> LogVisitor()
+    {
+        var visitors = new Visitors() { VisitorsTimes= DateTime.UtcNow};
+        await Context.Set<Visitors>().AddAsync(visitors);
+        return visitors;
+    }
 }
  

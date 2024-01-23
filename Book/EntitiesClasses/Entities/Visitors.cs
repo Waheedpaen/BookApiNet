@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+namespace EntitiesClasses.Entities;
 
-namespace EntitiesClasses.Entities
+public class Visitors
 {
-    internal class Visitors
-    {
-    }
+    public int Id { get; set; } 
+    public DateTime VisitorsTimes { get; set; }
 }

@@ -173,5 +173,12 @@ catch (Exception ex)
     {
        return await _unitOfWork.IUserRepository.AssignRoleToUser(model);    
     }
+
+    public async Task<Visitors> LogVisitor()
+    {
+        var data = await _unitOfWork.IUserRepository.LogVisitor();
+        await _unitOfWork.CommitAsync();
+        return data;
+    }
 }
  

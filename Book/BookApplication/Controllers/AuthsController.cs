@@ -459,6 +459,16 @@ public class AuthsController : BaseController
 
 
     }
- 
+    [HttpGet("LogVisitor")]
+    public async Task<IActionResult> LogVisitor()
+    {
+
+        var boolObject = await _userService.LogVisitor();
+
+        return Ok(new { Success = true, Message = CustomMessage.VerifyEmail });
+
+
+    }
+   
 }
 
