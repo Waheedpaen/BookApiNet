@@ -398,9 +398,9 @@ public class AuthsController : BaseController
         var objCode = await _userService.verifyEmailCodeAndEmailCheck(verify.Email, verify.Code); 
         if (objCode == null)
         {
-
+            //Email / User Name does not exist
             _response.Success = false;
-            _response.Message = "Email/ User Name does not exist";
+            _response.Message = "Please Enter Correct Verifiy Code ";
 
         }
         else
@@ -469,6 +469,68 @@ public class AuthsController : BaseController
 
 
     }
-   
+
+    [HttpGet("TodayVisitor")]
+    public async Task<IActionResult> TodayVisitor()
+    { 
+        var data = await _userService.TodayVisitor();
+        if (data != null)
+        {
+            return Ok(new { Success = true,  Data= data });
+        }
+        else
+        { 
+            return Ok(new { Success = false, Message = CustomMessage.RecordNotFound });
+        } 
+
+    }
+
+    [HttpGet("MonthsVisitors")]
+    public async Task<IActionResult> MonthsVisitors()
+    {
+        var data = await _userService.MonthsVisitors();
+        if (data != null)
+        {
+            return Ok(new { Success = true, Data = data });
+        }
+        else
+        {
+            return Ok(new { Success = false, Message = CustomMessage.RecordNotFound });
+        }
+
+    }
+    [HttpGet("TotallyVisitors")]
+    public async Task<IActionResult> TotallyVisitors()
+    {
+        var data = await _userService.TotallyVisitors();
+        if (data != null)
+        {
+            return Ok(new { Success = true, Data = data });
+        }
+        else
+        {
+            return Ok(new { Success = false, Message = CustomMessage.RecordNotFound });
+        }
+
+    }
+
+
+
+    [HttpGet("WeeklyVisitors")]
+    public async Task<IActionResult> WeeklyVisitors()
+    {
+        var data = await _userService.WeeklyVisitors();
+        if (data != null)
+        {
+            return Ok(new { Success = true, Data = data });
+        }
+        else
+        {
+            return Ok(new { Success = false, Message = CustomMessage.RecordNotFound });
+        }
+
+    }
+
+ 
 }
 

@@ -40,5 +40,9 @@ namespace DataAccessLayer.Services;
     Task<bool> UserHaveDeleted(string Email);
     Task<bool> AssignRoleToUser(AssignRoleToUserModel model);
     Task<Visitors> LogVisitor();
+    Task<int> TodayVisitor();
+    Task<int> MonthsVisitors();
+    Task<int> TotallyVisitors();
+    Task<int> WeeklyVisitors();
 }
  

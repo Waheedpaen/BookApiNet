@@ -323,5 +323,42 @@ public  class UserRepository :  Reporsitory<User, int>, IUserRepository
         await Context.Set<Visitors>().AddAsync(visitors);
         return visitors;
     }
+
+    public async Task<int> TodayVisitor()
+    {
+        DateTime today = DateTime.Today;
+        var todayVisitors = await Context.Set<Visitors>()
+       .Where(visitor => visitor. VisitorsTimes >= today && visitor.VisitorsTimes < today.AddDays(1))
+       .ToListAsync();
+        return todayVisitors.Count();
+    }
+
+    public async Task<int> MonthsVisitors()
+    {
+        DateTime today = DateTime.Today;
+
+        var currentMonthVisitors = await Context.Set<Visitors>()
+            .Where(visitor => visitor.VisitorsTimes.Month == today.Month && visitor.VisitorsTimes.Year == today.Year)
+             .ToListAsync();
+        return currentMonthVisitors.Count(); 
+    }
+
+    public async Task<int> TotallyVisitors()
+    {
+        var currentMonthVisitors = await Context.Set<Visitors>() .ToListAsync();
+        return currentMonthVisitors.Count();
+    }
+
+    public async Task<int> WeeklyVisitors()
+    {
+        DateTime today = DateTime.Today;
+        DateTime startOfWeek = today.AddDays(-(int)today.DayOfWeek);
+        DateTime endOfWeek = startOfWeek.AddDays(7);
+
+        var currentWeekVisitors = await Context.Set<Visitors>()
+            .Where(visitor => visitor.VisitorsTimes >= startOfWeek && visitor.VisitorsTimes < endOfWeek)
+            .ToListAsync();
+        return currentWeekVisitors.Count();
+    }
 }
  

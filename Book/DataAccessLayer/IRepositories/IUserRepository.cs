@@ -36,6 +36,11 @@ public interface IUserRepository : IRepository<User, int>
     Task<bool> AssignRoleToUser(AssignRoleToUserModel model);
 
     Task<Visitors> LogVisitor();
+    Task<int> TodayVisitor();
+    Task<int> MonthsVisitors();
+    Task<int> TotallyVisitors();
+    Task<int> WeeklyVisitors();
+  
 
 
 }

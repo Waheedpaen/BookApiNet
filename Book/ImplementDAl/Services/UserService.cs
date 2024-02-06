@@ -180,5 +180,25 @@ catch (Exception ex)
         await _unitOfWork.CommitAsync();
         return data;
     }
+
+    public async Task<int> TodayVisitor()
+    {
+        return await _unitOfWork.IUserRepository.TodayVisitor();
+    }
+
+    public async Task<int> MonthsVisitors()
+    {
+        return await _unitOfWork.IUserRepository.MonthsVisitors(); 
+    }
+
+    public async Task<int> TotallyVisitors()
+    {
+        return await _unitOfWork.IUserRepository.TotallyVisitors(); 
+    }
+
+    public async Task<int> WeeklyVisitors()
+    {
+        return await _unitOfWork.IUserRepository.WeeklyVisitors(); 
+    }
 }
  
