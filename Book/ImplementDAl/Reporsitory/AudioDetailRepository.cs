@@ -1,4 +1,7 @@
 ﻿
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.EntityFrameworkCore;
+
 namespace ImplementDAl.Reporsitory;
 
 public class AudioDetailRepository : Reporsitory<AudioDetail, int>, IAudioDetailRepository
@@ -25,7 +28,16 @@ public class AudioDetailRepository : Reporsitory<AudioDetail, int>, IAudioDetail
     {
         return await Context.Set<AudioDetail>().Include(a => a.AudioScholars).Where(data => data.Id == Id).FirstOrDefaultAsync();
     }
-
+    public async Task<AudioDetail> UpdateViewCount(int Id)
+    { 
+        var video = await Context.Set<AudioDetail>().Include(a => a.AudioScholars).Where(data => data.Id == Id).FirstOrDefaultAsync();
+        if (video != null)
+        {
+            video.ViewCount++;
+            await Context.SaveChangesAsync(); 
+        }
+        return video;
+    }
     public async Task<List<AudioDetail>> GetAudioDetailByAudioScholar(int Id)
     {
         return await Context.Set<AudioDetail>().Where(data => data.AudioScholarsId == Id).ToListAsync();

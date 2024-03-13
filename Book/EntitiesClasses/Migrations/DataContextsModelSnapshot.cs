@@ -84,6 +84,9 @@ namespace EntitiesClasses.Migrations
                     b.Property<DateTime?>("Updated_At")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("ViewCount")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AudioScholarsId");

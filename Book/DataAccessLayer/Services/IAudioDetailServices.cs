@@ -19,4 +19,5 @@ public interface IAudioDetailServices
     Task<AudioDetail> Delete(AudioDetail model); 
     Task<List<AudioDetail>> GetAudioDetailByAudioScholar(int Id);
     Task<PagedResult<AudioDetail>> SearchAndPaginateAsync(SearchAndPaginateOptions options);
+    Task<AudioDetail> UpdateViewCount(int Id);
 }

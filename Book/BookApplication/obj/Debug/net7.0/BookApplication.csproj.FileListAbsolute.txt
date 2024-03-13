@@ -215,3 +215,5 @@ C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\re
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.pdb
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.genruntimeconfig.cache
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\ref\BookApplication.dll
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\bin\Debug\net7.0\BookApplication.staticwebassets.runtime.json
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.MvcApplicationPartsAssemblyInfo.cs

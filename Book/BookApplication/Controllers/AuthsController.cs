@@ -124,7 +124,7 @@ public class AuthsController : BaseController
                 new Claim(Enums.ClaimType.Role.ToString(), objUserLogin.Role.ToString()),
                 new Claim(Enums.ClaimType.Name.ToString(), objUserLogin.UserName.ToString()),
                 new Claim(Enums.ClaimType.UserTypeId.ToString(), objUserLogin.UserTypeId.ToString()),
-                new Claim(Enums.ClaimType.ImageUrl.ToString(), objUserLogin.ImageUrl.ToString()),
+                //new Claim(Enums.ClaimType.ImageUrl.ToString(), objUserLogin.ImageUrl.ToString()),
 
 
             };

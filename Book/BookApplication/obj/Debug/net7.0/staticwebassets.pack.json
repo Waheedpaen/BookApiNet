@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4",
+      "PackagePath": "staticwebassets\\AudioDetail\\84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4",
+      "PackagePath": "staticwebassets\\AudioDetail\\b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BookApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BookApplication.props",
+      "PackagePath": "build\\BookApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BookApplication.props",
+      "PackagePath": "buildMultiTargeting\\BookApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BookApplication.props",
+      "PackagePath": "buildTransitive\\BookApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

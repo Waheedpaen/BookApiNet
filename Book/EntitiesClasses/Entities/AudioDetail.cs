@@ -13,6 +13,7 @@ public class AudioDetail : CommonClass
     public DateTime? DateRelase { get; set; }
     [ForeignKey("AudioScholars")]
     public int   AudioScholarsId { get; set; }
+    public int ViewCount { get; set; }
     public virtual AudioScholars ?AudioScholars { get; set; }
 
 }

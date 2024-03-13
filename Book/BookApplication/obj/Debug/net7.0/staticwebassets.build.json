@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "mPTuAON8SNCsTn3Rq/oEm5xH+4zvlh1Br+FKeqf0IQQ=",
+  "Hash": "plow6V1QDM4vu7I3SQnBfskCyQtiBO0A8SrTlkFMryw=",
   "Source": "BookApplication",
   "BasePath": "_content/BookApplication",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookApplication\\wwwroot",
+      "Source": "BookApplication",
+      "ContentRoot": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

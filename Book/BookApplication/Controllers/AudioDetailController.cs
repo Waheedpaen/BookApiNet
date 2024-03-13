@@ -89,7 +89,7 @@ public class AudioDetailController : ControllerBase
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
 
-        var audioDetail = await _audioDetailServices.Get(Id);
+        var audioDetail = await _audioDetailServices.UpdateViewCount(Id);
 
         if (audioDetail == null)
         {
@@ -108,7 +108,7 @@ public class AudioDetailController : ControllerBase
       
  
 
-        return File(fileStream, "audio/mp3"); // Adjust the MIME type if needed
+       return File(fileStream, "audio/mp3"); // Adjust the MIME type if needed 
     }
     [HttpDelete("DeleteAudioDetail/{Id}")]
     public async Task<IActionResult> Delete(int Id)

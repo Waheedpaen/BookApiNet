@@ -13,5 +13,6 @@ public interface IAudioDetailRepository : IRepository<AudioDetail, int>
     public Task<AudioDetail> AudioDetailAlreadyExit(string name);
     Task<List<AudioDetail>> GetAudioDetailByAudioScholar(int Id);
     Task<AudioDetail> Delete(AudioDetail model);
+    Task<AudioDetail> UpdateViewCount(int Id);
 }
 

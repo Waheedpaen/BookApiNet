@@ -81,5 +81,10 @@ namespace ImplementDAl.Services
             await _unitOfWork.CommitAsync();
             return update;
         }
+
+        public async Task<AudioDetail> UpdateViewCount(int Id)
+        {
+            return await _unitOfWork.IAudioDetailRepository.UpdateViewCount(Id);
+        }
     }
 }
