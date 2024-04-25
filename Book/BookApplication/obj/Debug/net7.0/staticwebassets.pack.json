@@ -1,12 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4",
-      "PackagePath": "staticwebassets\\AudioDetail\\84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4"
+      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b",
+      "PackagePath": "staticwebassets\\AudioDetail"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4",
-      "PackagePath": "staticwebassets\\AudioDetail\\b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4"
+      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\62891361-3be6-44b8-8999-9257b02bdd45.mp3",
+      "PackagePath": "staticwebassets\\AudioDetail\\62891361-3be6-44b8-8999-9257b02bdd45.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4",
+      "PackagePath": "staticwebassets\\AudioDetail\\aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3",
+      "PackagePath": "staticwebassets\\AudioDetail\\b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BookApplication.Microsoft.AspNetCore.StaticWebAssets.props",

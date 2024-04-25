@@ -213,6 +213,26 @@ public class AudioDetailController : ControllerBase
         return Ok(pagedResult);
     }
 
+  
+
+
+    [HttpPut("UpdateLikesorDisLikes")]
+    public async Task<IActionResult> UpdateLikesorDisLikes(LikesorDislikesDto model)
+    {
+        var detailOldData = await _audioDetailServices.Get(Convert.ToInt16(model.Id));
+            var newData = _mapper.Map<AudioDetail>(model);
+            if (detailOldData != null)
+            {
+                await _audioDetailServices.UpdateLikesorDisLikes(detailOldData, newData);
+                return Ok(new { Success = true, Message = CustomMessage.Updated });
+            }
+            else
+            {
+                return Ok(new { Success = false, Message = CustomMessage.RecordNotFound });
+            }
+      
+    }
+
 
 
     [HttpGet("GetAudioDetailByAudioScholar/{Id}")]

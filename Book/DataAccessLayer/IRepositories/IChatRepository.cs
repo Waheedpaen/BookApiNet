@@ -8,9 +8,8 @@ using static ViewModels.MessageChatViewModel.MessageDto;
 
 namespace DataAccessLayer.IRepositories
 {
-    public  interface IChatRepository
-    { 
-      Task<MessageReply> SendReply(MessageReply model); 
-      Task<Message> SendMessage(Message model);
+    public  interface IChatRepository : IRepository<Message, int>
+    {
+        Task<List<Message>> GetUserMessages(int senderId,int ReceiverId);
     }
 }

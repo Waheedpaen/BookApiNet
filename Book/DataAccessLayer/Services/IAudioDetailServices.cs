@@ -14,6 +14,8 @@ public interface IAudioDetailServices
     Task<AudioDetail> Get(int id);
     Task<AudioDetail> Create(AudioDetail model);
     Task<AudioDetail> Update(AudioDetail update, AudioDetail model);
+    Task<AudioDetail> UpdateLikesorDisLikes(AudioDetail update, AudioDetail model);
+
     Task<AudioDetail> UpdateForAudioDetail(AudioDetail update, AudioDetail model);
     public Task<AudioDetail> AudioDetailAlreadyExit(string name);
     Task<AudioDetail> Delete(AudioDetail model); 

@@ -16,17 +16,17 @@ public class ChatServices : IChatServices
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<Message> SendMessage(Message model)
+    public async Task<List<Message>> GetUserMessages(int SenderId, int ReceiverId)
     {
-        await _unitOfWork.IChatRepository.SendMessage(model);
-        await _unitOfWork.CommitAsync();
-        return model;  
+         return await _unitOfWork.IChatRepository.GetUserMessages(SenderId, ReceiverId); 
     }
 
-    public async Task<MessageReply> SendReply(MessageReply model)
+    public async Task<Message> SendorReceiverMessagesSave(Message model)
     {
-        await _unitOfWork.IChatRepository.SendReply(model);
+        await _unitOfWork.IChatRepository.AddAsync(model);
         await _unitOfWork.CommitAsync();
         return model;
     }
+
+ 
 }

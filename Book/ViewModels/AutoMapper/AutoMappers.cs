@@ -8,6 +8,7 @@ using ViewModels.FarqaCategoryViewModel;
 using ViewModels.MonthlyMagizne;
 using ViewModels.NewsViewModel;
 using ViewModels.ScholarViewModel;
+using static ViewModels.MessageChatViewModel.MessageDto;
 
 namespace ViewModel.AutoMapper;
 public class AutoMappers : Profile
@@ -29,8 +30,10 @@ public class AutoMappers : Profile
         CreateMap<UserTypes, UserTypesDto>().ReverseMap();
         CreateMap<News, NewsDto>().ReverseMap(); 
         CreateMap<User, UserListDto>().ReverseMap();
-
-
+        CreateMap<AudioDetail, LikesorDislikesDto>().ReverseMap();
+        CreateMap<Message, MessageForAddDto>().ReverseMap();
+        CreateMap<Message, GetMessagesDto>().ReverseMap();
+        
         CreateMap<MadrassaClass, CommonDto>().ReverseMap();
         //CreateMap<BookDetail, BookDetailSaveDto>().ReverseMap(); 
         CreateMap<BookImage, BookImageDto>().ReverseMap();

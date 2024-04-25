@@ -8,14 +8,27 @@ namespace ViewModels.MessageChatViewModel;
 
 public class MessageDto
 {
-    public class MessageForAddDto {  
-        public int MessageToUserId { get; set; }
-        public int ? _LoggedIn_UserID { get; set; }
-    public string Comment { get; set; }
-    // public int MessageFromUserId { get; set; }
-    public int? MessageReplyId { get; set; }
-    public IFormFileCollection files { get; set; }
-}
+
+    public class GetMessagesDto
+    { 
+        public int SenderId { get; set; }
+
+        public int ReceiverId { get; set; } 
+    }
+    public class MessageForAddDto {
+    
+        public string Content { get; set; }
+        public DateTime Timestamp { get; set; } = DateTime.Now;
+        public int SenderId { get; set; } 
+
+        public int ReceiverId { get; set; }
+        //    public int MessageToUserId { get; set; }
+        //    public int ? _LoggedIn_UserID { get; set; }
+        //public string Comment { get; set; }
+        //// public int MessageFromUserId { get; set; }
+        //public int? MessageReplyId { get; set; }
+        //public IFormFileCollection files { get; set; }
+    }
 public class GroupMessageForAddDto
 {
     public List<string> MessageToUserIds { get; set; }

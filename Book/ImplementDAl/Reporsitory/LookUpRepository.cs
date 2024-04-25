@@ -74,4 +74,9 @@ public class LookUpRepository : ILookUpRepository
             .OrderByDescending(data => data.Title).ToListAsync();
          
     }
+
+    public async Task<List<User>> Users()
+    {
+        return await Context.Set<User>().ToListAsync();
+    }
 }

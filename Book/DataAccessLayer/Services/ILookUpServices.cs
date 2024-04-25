@@ -19,5 +19,7 @@ namespace DataAccessLayer.Services
         Task<List<MadrassaBook>> GetMadrassaBooks();
         Task<List<MonthlyMagzine>> GetMonthlyMagzines(); 
         Task<List<News>> News();
+        Task<List<User>> Users();
+
     }
 }

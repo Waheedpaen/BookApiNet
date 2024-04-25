@@ -204,4 +204,26 @@ public class LookUpController : ControllerBase
             return Ok(new { Success = false, data = string.Empty, });
         }
     }
+    [HttpGet("GetUsers")]
+    public async Task<IActionResult> GetUsers()
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+        var enityData = await _lookUpServices.Users();
+        List<UserListDto> listUser = new();
+        foreach (var item in enityData)
+        {
+            listUser.Add(new UserListDto { Name = item.Name, LastLogout = item.LastLogout, UserTypeId = item.UserTypesId ,Id=item.Id,UserName=item.UserName,Email = item.Email,});
+        }
+        var model = _mapper.Map<List<UserListDto>>(enityData);
+
+        if (listUser != null)
+        {
+            return Ok(new { Success = true, data = listUser });
+        }
+        else
+        {
+            return Ok(new { Success = false, data = string.Empty, });
+        }
+    }
+   
 }

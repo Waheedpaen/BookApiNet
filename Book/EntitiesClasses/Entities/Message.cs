@@ -8,24 +8,18 @@ namespace EntitiesClasses.Entities;
 
 public class Message
 {
-    public int Id { get; set; }
+    [Key]
+    public int  Id { get; set; }
+    public string Content { get; set; }
+    public DateTime Timestamp { get; set; } = DateTime.Now;
+    [ForeignKey("Sender")]
+    public int SenderId { get; set; }
+    [ForeignKey("Receiver")]
 
-    public string Comment { get; set; }
-    public int? MessageReplyId { get; set; }
-    public string Attachment { get; set; }
-    public bool IsRead { get; set; }
-    public DateTime CreatedDateTime { get; set; }
+    public int ReceiverId { get; set; }
 
-    [ForeignKey("MessageFromUser")]
-    public int ? MessageFromUserId { get; set; }
-
-    public virtual User ? MessageFromUser { get; set; }
-
-
-
-
-    [ForeignKey("MessageToUser")]
-    public int MessageToUserId { get; set; }
-    public virtual User ? MessageToUser { get; set; }
-
+    // Navigation properties
+    public virtual User? Sender { get; set; }
+    public virtual User? Receiver { get; set; }
+ 
 }

@@ -33,7 +33,8 @@ public class AudioDetailRepository : Reporsitory<AudioDetail, int>, IAudioDetail
         var video = await Context.Set<AudioDetail>().Include(a => a.AudioScholars).Where(data => data.Id == Id).FirstOrDefaultAsync();
         if (video != null)
         {
-            video.ViewCount++;
+     var obj =        video.ViewCount = video.ViewCount + 1;
+           
             await Context.SaveChangesAsync(); 
         }
         return video;

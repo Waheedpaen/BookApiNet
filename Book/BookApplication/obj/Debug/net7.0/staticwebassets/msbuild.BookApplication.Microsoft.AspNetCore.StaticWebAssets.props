@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b))">
       <SourceType>Package</SourceType>
       <SourceId>BookApplication</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BookApplication</BasePath>
-      <RelativePath>AudioDetail/84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4</RelativePath>
+      <RelativePath>AudioDetail/2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\84d137c9-b473-47b2-8e9c-35a7f0878f89.mp4))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\62891361-3be6-44b8-8999-9257b02bdd45.mp3))">
       <SourceType>Package</SourceType>
       <SourceId>BookApplication</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BookApplication</BasePath>
-      <RelativePath>AudioDetail/b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4</RelativePath>
+      <RelativePath>AudioDetail/62891361-3be6-44b8-8999-9257b02bdd45.mp3</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,7 +30,39 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\b659bfcf-5f5d-4cb2-8f7d-33f994e7e328.mp4))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\62891361-3be6-44b8-8999-9257b02bdd45.mp3))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>AudioDetail/aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>AudioDetail/b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

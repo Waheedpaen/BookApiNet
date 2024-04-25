@@ -8,29 +8,18 @@ using System.Threading.Tasks;
 
 namespace ImplementDAl.Reporsitory
 {
-    public class ChatRepository : IChatRepository
+    public class ChatRepository : Reporsitory<Message, int>, IChatRepository
     {
-        protected readonly DbContext Context;
-        public ChatRepository(DbContext context)
+        public ChatRepository(DataContexts context) : base(context)
         {
-            Context = context;
 
         }
+        public DataContexts DataContexts => Context as DataContexts;
 
-        public async Task<Message> SendMessage(Message model)
+        public async Task<List<Message>> GetUserMessages(int senderId, int ReceiverId)
         {
-            await Context.Set<Message>().AddAsync(model);
-            return model;
-        
+            var list = await Context.Set<Message>().Where(data => data.SenderId.Equals(senderId) && data.ReceiverId.Equals(ReceiverId) ||    (data.SenderId == ReceiverId && data.ReceiverId == senderId)).ToListAsync();
+            return list;
         }
-
-        public async Task<MessageReply> SendReply(MessageReply model)
-        {
-            
-          await   Context.Set<MessageReply>().AddAsync(model);         
-            return model;
-        }
-
-
     }
 }

@@ -68,6 +68,9 @@ namespace EntitiesClasses.Migrations
                     b.Property<DateTime?>("DateRelase")
                         .HasColumnType("datetime2");
 
+                    b.Property<long?>("Dislikes")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("FileNameAudio")
                         .HasColumnType("nvarchar(max)");
 
@@ -77,6 +80,9 @@ namespace EntitiesClasses.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<long?>("Likes")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("varchar(50)");
@@ -84,7 +90,7 @@ namespace EntitiesClasses.Migrations
                     b.Property<DateTime?>("Updated_At")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ViewCount")
+                    b.Property<int?>("ViewCount")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -438,34 +444,24 @@ namespace EntitiesClasses.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Attachment")
+                    b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Comment")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ReceiverId")
+                        .HasColumnType("int");
 
-                    b.Property<DateTime>("CreatedDateTime")
+                    b.Property<int>("SenderId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Timestamp")
                         .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsRead")
-                        .HasColumnType("bit");
-
-                    b.Property<int?>("MessageFromUserId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("MessageReplyId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MessageToUserId")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MessageFromUserId");
+                    b.HasIndex("ReceiverId");
 
-                    b.HasIndex("MessageToUserId");
+                    b.HasIndex("SenderId");
 
                     b.ToTable("Messages");
                 });
@@ -491,9 +487,6 @@ namespace EntitiesClasses.Migrations
                     b.Property<int>("MessageId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MessageId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Reply")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -506,7 +499,7 @@ namespace EntitiesClasses.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MessageId1");
+                    b.HasIndex("MessageId");
 
                     b.HasIndex("ReplyFromUserId");
 
@@ -831,26 +824,28 @@ namespace EntitiesClasses.Migrations
 
             modelBuilder.Entity("EntitiesClasses.Entities.Message", b =>
                 {
-                    b.HasOne("EntitiesClasses.Entities.User", "MessageFromUser")
+                    b.HasOne("EntitiesClasses.Entities.User", "Receiver")
                         .WithMany()
-                        .HasForeignKey("MessageFromUserId");
+                        .HasForeignKey("ReceiverId")
+                        .OnDelete(DeleteBehavior.NoAction);
 
-                    b.HasOne("EntitiesClasses.Entities.User", "MessageToUser")
+                    b.HasOne("EntitiesClasses.Entities.User", "Sender")
                         .WithMany()
-                        .HasForeignKey("MessageToUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SenderId")
+                        .OnDelete(DeleteBehavior.NoAction);
 
-                    b.Navigation("MessageFromUser");
+                    b.Navigation("Receiver");
 
-                    b.Navigation("MessageToUser");
+                    b.Navigation("Sender");
                 });
 
             modelBuilder.Entity("EntitiesClasses.Entities.MessageReply", b =>
                 {
                     b.HasOne("EntitiesClasses.Entities.Message", "Message")
                         .WithMany()
-                        .HasForeignKey("MessageId1");
+                        .HasForeignKey("MessageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("EntitiesClasses.Entities.User", "ReplyFromUser")
                         .WithMany()

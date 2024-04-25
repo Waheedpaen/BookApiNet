@@ -37,7 +37,19 @@ namespace EntitiesClasses.DataContext;
     {
 
         //modelBuilder.Entity<User>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));
+        modelBuilder.Entity<Message>()
+     .HasOne(m => m.Sender)
+     .WithMany()
+     .HasForeignKey(m => m.SenderId)
+     .OnDelete(DeleteBehavior.NoAction)
+     .IsRequired(false); // This line may be needed if SenderId is optional
 
+        modelBuilder.Entity<Message>()
+            .HasOne(m => m.Receiver)
+            .WithMany()
+            .HasForeignKey(m => m.ReceiverId)
+            .OnDelete(DeleteBehavior.NoAction)
+            .IsRequired(false);
         modelBuilder.Entity<AudioDetail>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));
         modelBuilder.Entity<News>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));
         modelBuilder.Entity<AudioScholars>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));

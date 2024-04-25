@@ -86,5 +86,13 @@ namespace ImplementDAl.Services
         {
             return await _unitOfWork.IAudioDetailRepository.UpdateViewCount(Id);
         }
+
+        public async Task<AudioDetail> UpdateLikesorDisLikes(AudioDetail update, AudioDetail model)
+        {
+            update.Likes = model.Likes;
+            update.Dislikes = model.Dislikes;  
+            await _unitOfWork.CommitAsync();
+            return update;
+        }
     }
 }

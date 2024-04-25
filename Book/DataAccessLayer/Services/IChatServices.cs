@@ -9,6 +9,7 @@ namespace DataAccessLayer.Services;
 
 public interface IChatServices
 {
-    Task<MessageReply> SendReply(MessageReply model);
-    Task<Message> SendMessage(Message model);
+  
+    Task<Message> SendorReceiverMessagesSave(Message model);
+    Task<List<Message>> GetUserMessages(int SenderId, int ReceiverId);
 }

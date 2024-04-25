@@ -13,6 +13,8 @@ namespace DataAccessLayer.IRepositories;
     public interface ILookUpRepository
     {
      Task<List<AudioScholars>> AudioScholars();
+    Task<List<User>> Users();
+
     Task<List<AudioDetail>> AudioDetails();
     Task<List<BookCategory>> BookCategories();
     Task<List<FarqaCategory>> FarqaCategories();
