@@ -5,6 +5,8 @@ using HelperData;
 using ImplementDAL.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using System.Reflection.Metadata;
 using ViewModel.ViewModels.UserViewModel;
 using ViewModels.CommonViewModel;
 using ViewModels.NewsViewModel;
@@ -21,11 +23,13 @@ public class LookUpController : ControllerBase
     private readonly IMapper _mapper;
     private readonly ILookUpServices _lookUpServices;
     private readonly IConfiguration _config;
-    public LookUpController(ILookUpServices lookUpServices, IMapper mapper, IConfiguration config)
+    private readonly DataContexts _dataContexts;
+    public LookUpController(DataContexts dataContexts, ILookUpServices lookUpServices, IMapper mapper, IConfiguration config)
     {
         _lookUpServices = lookUpServices;
         _mapper = mapper;
         _config = config;
+      _dataContexts = dataContexts;
     }
 
     [HttpGet("BookCategories")]
@@ -225,5 +229,24 @@ public class LookUpController : ControllerBase
             return Ok(new { Success = false, data = string.Empty, });
         }
     }
-   
+
+    [HttpGet("GetNewsSql")]
+    public async Task<ActionResult<List<News>>> GetNewsSql()
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+        var enityData = await _dataContexts.News.FromSqlRaw("dbo.YourStoredProcedureName").IgnoreQueryFilters().ToListAsync();
+
+        var enityDatas = await _dataContexts.News.FromSqlRaw("dbo.YourStoredProcedureNameId @Id = {0}", 3).IgnoreQueryFilters().ToListAsync();
+     
+
+        //var model = _mapper.Map<List<NewsDto>>(enityData);
+        if (enityData != null)
+        {
+            return Ok(new { Success = true, data = enityData });
+        }
+        else
+        {
+            return Ok(new { Success = false, data = string.Empty, });
+        }
+    }
 }

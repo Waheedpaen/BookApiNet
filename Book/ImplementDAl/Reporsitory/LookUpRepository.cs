@@ -75,6 +75,12 @@ public class LookUpRepository : ILookUpRepository
          
     }
 
+    public async Task<List<News>> NewsSql()
+    {
+      
+        return await Context.Set<News>().FromSqlRaw("YourStoredProcedureName").ToListAsync(); 
+    }
+
     public async Task<List<User>> Users()
     {
         return await Context.Set<User>().ToListAsync();

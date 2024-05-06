@@ -448,6 +448,15 @@ namespace EntitiesClasses.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("FileNameAudio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePathAudio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
                     b.Property<int>("ReceiverId")
                         .HasColumnType("int");
 

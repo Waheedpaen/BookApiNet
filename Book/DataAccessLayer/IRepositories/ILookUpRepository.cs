@@ -25,6 +25,7 @@ namespace DataAccessLayer.IRepositories;
     Task<List<MadrassaBook>> GetMadrassaBooks();
     Task<List<MonthlyMagzine>> MonthlyMagzines();
     Task<List<News>> News();
+    Task<List<News>> NewsSql();
 
 }
 

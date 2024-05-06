@@ -20,6 +20,8 @@ namespace DataAccessLayer.Services
         Task<List<MonthlyMagzine>> GetMonthlyMagzines(); 
         Task<List<News>> News();
         Task<List<User>> Users();
+        Task<List<News>> NewsSql();
+     
 
-    }
+        }
 }

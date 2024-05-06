@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\08b16cc5-0f13-4e1c-8522-e50addf21cb7))">
       <SourceType>Package</SourceType>
       <SourceId>BookApplication</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BookApplication</BasePath>
-      <RelativePath>AudioDetail/2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b</RelativePath>
+      <RelativePath>SaveMessageForaudio/08b16cc5-0f13-4e1c-8522-e50addf21cb7</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\2b1b5e5e-a2d7-4511-9abb-b2d34cd6e88b))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\08b16cc5-0f13-4e1c-8522-e50addf21cb7))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\62891361-3be6-44b8-8999-9257b02bdd45.mp3))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\0fe7c008-2abf-4f50-849e-30e9d3f0bfb3.jpg.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BookApplication</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BookApplication</BasePath>
-      <RelativePath>AudioDetail/62891361-3be6-44b8-8999-9257b02bdd45.mp3</RelativePath>
+      <RelativePath>SaveMessageForaudio/0fe7c008-2abf-4f50-849e-30e9d3f0bfb3.jpg.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,14 +30,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\62891361-3be6-44b8-8999-9257b02bdd45.mp3))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\0fe7c008-2abf-4f50-849e-30e9d3f0bfb3.jpg.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\54cc941e-8581-484a-a54c-87f7f42f233f.jpg.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BookApplication</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BookApplication</BasePath>
-      <RelativePath>AudioDetail/aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4</RelativePath>
+      <RelativePath>SaveMessageForaudio/54cc941e-8581-484a-a54c-87f7f42f233f.jpg.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\aef1df70-f4b4-467e-b8de-1cfbc014cb92.mp3.mp4))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\54cc941e-8581-484a-a54c-87f7f42f233f.jpg.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\558fe1ae-0057-4494-80f3-6d168c16b0e2))">
       <SourceType>Package</SourceType>
       <SourceId>BookApplication</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BookApplication</BasePath>
-      <RelativePath>AudioDetail/b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3</RelativePath>
+      <RelativePath>SaveMessageForaudio/558fe1ae-0057-4494-80f3-6d168c16b0e2</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,7 +62,343 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AudioDetail\b5c00e37-0a44-4061-9a31-57f62fb8802a.mp3))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\558fe1ae-0057-4494-80f3-6d168c16b0e2))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\5af8fb14-ea65-4eaf-8f0d-afbde36812dd))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/5af8fb14-ea65-4eaf-8f0d-afbde36812dd</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\5af8fb14-ea65-4eaf-8f0d-afbde36812dd))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\74308f23-b1a5-421d-a631-f03dabf38eb3))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/74308f23-b1a5-421d-a631-f03dabf38eb3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\74308f23-b1a5-421d-a631-f03dabf38eb3))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\756bd4cc-d243-4ecc-9b3a-bb8d5bbbeede))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/756bd4cc-d243-4ecc-9b3a-bb8d5bbbeede</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\756bd4cc-d243-4ecc-9b3a-bb8d5bbbeede))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\7922f673-f11b-4749-9380-1c9d69e6338d.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/7922f673-f11b-4749-9380-1c9d69e6338d.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\7922f673-f11b-4749-9380-1c9d69e6338d.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\805fba64-8fca-480d-95e1-db313c02816a))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/805fba64-8fca-480d-95e1-db313c02816a</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\805fba64-8fca-480d-95e1-db313c02816a))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\88bd39ef-21c3-4afd-97ae-1ac09ee3e464.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/88bd39ef-21c3-4afd-97ae-1ac09ee3e464.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\88bd39ef-21c3-4afd-97ae-1ac09ee3e464.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\98c12d10-c949-4b0f-9ef8-958406017749.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/98c12d10-c949-4b0f-9ef8-958406017749.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\98c12d10-c949-4b0f-9ef8-958406017749.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\9f57e344-68e2-4704-97ed-a09b6f04be16))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/9f57e344-68e2-4704-97ed-a09b6f04be16</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\9f57e344-68e2-4704-97ed-a09b6f04be16))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\9f89c1de-d118-4ade-b1fc-3628e62d05c1.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/9f89c1de-d118-4ade-b1fc-3628e62d05c1.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\9f89c1de-d118-4ade-b1fc-3628e62d05c1.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\b3705fd7-7566-4293-865b-2a367cd5d4c0))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/b3705fd7-7566-4293-865b-2a367cd5d4c0</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\b3705fd7-7566-4293-865b-2a367cd5d4c0))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\b38a9685-77e8-4ba9-b4b4-7aec6aa34b89.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/b38a9685-77e8-4ba9-b4b4-7aec6aa34b89.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\b38a9685-77e8-4ba9-b4b4-7aec6aa34b89.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\bead9167-539c-4e66-a509-75eb0746797b))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/bead9167-539c-4e66-a509-75eb0746797b</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\bead9167-539c-4e66-a509-75eb0746797b))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\c41cf4ab-c056-4850-bbee-48214dbe55b8.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/c41cf4ab-c056-4850-bbee-48214dbe55b8.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\c41cf4ab-c056-4850-bbee-48214dbe55b8.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d3e9b0c2-e2b9-4587-b21f-4a493b924941.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/d3e9b0c2-e2b9-4587-b21f-4a493b924941.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d3e9b0c2-e2b9-4587-b21f-4a493b924941.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d481f271-d5d5-4f87-9c1e-73933c4219ba.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/d481f271-d5d5-4f87-9c1e-73933c4219ba.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d481f271-d5d5-4f87-9c1e-73933c4219ba.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d7c862c3-cc38-4818-8775-a6b817942c3f))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/d7c862c3-cc38-4818-8775-a6b817942c3f</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d7c862c3-cc38-4818-8775-a6b817942c3f))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d8b4cace-8744-4e0b-bc82-d8f3d2bb289d))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/d8b4cace-8744-4e0b-bc82-d8f3d2bb289d</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\d8b4cace-8744-4e0b-bc82-d8f3d2bb289d))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\ddf99e08-cc7b-40e6-8261-5319cf3bbb5e))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/ddf99e08-cc7b-40e6-8261-5319cf3bbb5e</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\ddf99e08-cc7b-40e6-8261-5319cf3bbb5e))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\f14492c0-bc08-4614-8414-0585f4451943.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/f14492c0-bc08-4614-8414-0585f4451943.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\f14492c0-bc08-4614-8414-0585f4451943.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\f3f1f7ea-a85b-4655-b9a2-ccdc9946525c))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/f3f1f7ea-a85b-4655-b9a2-ccdc9946525c</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\f3f1f7ea-a85b-4655-b9a2-ccdc9946525c))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\f5cba614-07a9-4004-8c4d-a99ebe3a8e17))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookApplication</BasePath>
+      <RelativePath>SaveMessageForaudio/f5cba614-07a9-4004-8c4d-a99ebe3a8e17</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\SaveMessageForaudio\f5cba614-07a9-4004-8c4d-a99ebe3a8e17))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

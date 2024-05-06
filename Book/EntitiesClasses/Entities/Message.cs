@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -15,7 +16,9 @@ public class Message
     [ForeignKey("Sender")]
     public int SenderId { get; set; }
     [ForeignKey("Receiver")]
-
+    public byte[] ? ImageData { get; set; }// i want save it by byte method 
+    public string? FileNameAudio { get; set; }
+    public string? FilePathAudio { get; set; }
     public int ReceiverId { get; set; }
 
     // Navigation properties

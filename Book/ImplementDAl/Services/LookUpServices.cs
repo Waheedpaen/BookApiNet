@@ -69,5 +69,12 @@ public class LookUpServices : ILookUpServices
     {
         return await _unitOfWork.ILookUpRepository.Users();
     }
+
+    public async  Task<List<News>> NewsSql()
+    {
+        return await _unitOfWork.ILookUpRepository.NewsSql();
+
+
+    }
 }
 

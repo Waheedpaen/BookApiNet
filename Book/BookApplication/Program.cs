@@ -36,11 +36,12 @@ if (app.Environment.IsDevelopment())
 }
 
  
-app.MapHub<BroadcastHub>("/sara");
 app.UseHttpsRedirection();
-app.UseCors();
+app.UseCors("AllowAllHeaders");
 app.UseAuthorization();
+app.UseRouting();
 app.UseStaticFiles();
-app.MapControllers();
 
+app.MapControllers();
+app.MapHub<ChatHub>("/sara");
 app.Run();

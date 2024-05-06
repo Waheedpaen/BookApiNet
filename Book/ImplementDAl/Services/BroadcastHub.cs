@@ -14,5 +14,6 @@ namespace ImplementDAL.Services
            
             await Clients.All.SendAsync("ReceiveUserCount", userCount);
         }
+
     }
 }

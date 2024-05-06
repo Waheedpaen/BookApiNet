@@ -15,8 +15,28 @@ public class MessageDto
 
         public int ReceiverId { get; set; } 
     }
-    public class MessageForAddDto {
-    
+
+    public class GetMessagesListDto
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Content { get; set; }
+        public DateTime Timestamp { get; set; }   
+        public int SenderId { get; set; }
+        public byte[]?  AudioData { get; set; }
+
+       
+        public string ? ImageDataAsString { get; set; }
+        public string? AudioFullPath { get; set; }
+        public int ReceiverId { get; set; }
+    }
+   
+      public class MessageForAddDto {
+         public byte[] ? ImageData { get; set; }
+        public string? ImageDataAsString { get; set; } 
+        public IFormFile? AudioUrlData { get; set; }
+        public string? FileName { get; set; }
+        public string? FilePath { get; set; }
         public string Content { get; set; }
         public DateTime Timestamp { get; set; } = DateTime.Now;
         public int SenderId { get; set; } 
