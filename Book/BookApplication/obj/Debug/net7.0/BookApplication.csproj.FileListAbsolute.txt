@@ -209,7 +209,6 @@ C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\st
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BookApplication.props
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\scopedcss\bundle\BookApplication.styles.css
-C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.csproj.CopyComplete
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\refint\BookApplication.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.pdb
@@ -217,3 +216,4 @@ C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\Bo
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\ref\BookApplication.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\bin\Debug\net7.0\BookApplication.staticwebassets.runtime.json
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookApplication.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\BookApplication\obj\Debug\net7.0\BookAppl.42F7B3E6.Up2Date

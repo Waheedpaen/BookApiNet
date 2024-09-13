@@ -76,5 +76,10 @@ public class LookUpServices : ILookUpServices
 
 
     }
+
+    public async Task<List<object>> ExecuteQuery(string Operation)
+    {
+        return await _unitOfWork.ILookUpRepository.ExecuteQuery(Operation);
+    }
 }
 

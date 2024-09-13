@@ -6,6 +6,7 @@ using ImplementDAl.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using System.Security.Claims;
 using ViewModels.CommonViewModel;
@@ -143,8 +144,27 @@ public class BookCategoryController : ControllerBase
         return Ok(pagedResult);
     }
 
+    // this is crud to get data from sql query 
 
+    [HttpGet("BookCategoryDetailSql/{Id}")]
+    public async Task<IActionResult> BookCategoryDetailSql(int Id)
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+        var obj = new BookCategory { Id = Id };
+        var save = new BookCategory { Name="sara",Description="data",ImageUrl="data" };
+        var entity = await _bookCategoryServices.BookCategoryCrudSqlQuery(obj, "read");
+        Debugger.Break();
+        //var model = _mapper.Map<CommonDto>(entity[0]);
+        if (entity != null)
+        {
+            return Ok(new { Data = entity[0], Success = true, });
+        }
+        else
+        {
+            return Ok(new { Data = string.Empty, Success = false, });
+        }
 
+    }
 }
 
 

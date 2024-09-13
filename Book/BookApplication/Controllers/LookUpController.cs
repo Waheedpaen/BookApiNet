@@ -2,6 +2,7 @@
 using DataAccessLayer.IUnitofWork;
 using DataAccessLayer.Services;
 using HelperData;
+using ImplementDAl.Services;
 using ImplementDAL.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -231,6 +232,7 @@ public class LookUpController : ControllerBase
     }
 
     [HttpGet("GetNewsSql")]
+    //Task<IActionResult>
     public async Task<ActionResult<List<News>>> GetNewsSql()
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -247,6 +249,23 @@ public class LookUpController : ControllerBase
         else
         {
             return Ok(new { Success = false, data = string.Empty, });
+        }
+    }
+
+    // this method is usesd for to get all method list in one method . 
+    [HttpGet("ExecuteQuery/{Operation}")]
+  public   async Task<IActionResult> ExecuteQuery(string Operation)
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+        var entity = await _lookUpServices.ExecuteQuery(Operation);
+        var model = _mapper.Map<List<CommonGetListDto>>(entity);
+        if (model != null)
+        {
+            return Ok(new { Data = model, Success = true, });
+        }
+        else
+        {
+            return Ok(new { Data = string.Empty, Success = false, });
         }
     }
 }

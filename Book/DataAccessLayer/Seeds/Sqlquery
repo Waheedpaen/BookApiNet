@@ -1,0 +1,85 @@
+alter PROCEDURE CRUD_News
+    @Operation NVARCHAR(10),  -- Operation: 'Create', 'Read', 'Update', or 'Delete'
+    @id INT = NULL,       -- NewsId for Read, Update, and Delete operations
+    @name  varchar(50)  = NULL,   -- Title for Create and Update operations
+    @description  varchar(50) = NULL, -- Content for Create and Update operations
+	@imageUrl NVARCHAR(MAX) = NULL 
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+
+    IF @Operation = 'Create'
+    BEGIN
+	DECLARE @currentDateTime DATETIME;
+SET @currentDateTime = GETDATE();
+        INSERT INTO  BookCategories (Name,Description, ImageUrl,IsDeleted,Created_At) VALUES (@name, @description,@imageUrl,'false',@currentDateTime);
+    END
+    ELSE IF @Operation = 'Read'
+    BEGIN
+        SELECT * FROM BookCategories WHERE Id = @id;
+    END
+    ELSE IF @Operation = 'Update' 
+    BEGIN
+		DECLARE @currentDateTimes DATETIME;
+SET @currentDateTimes = GETDATE();
+        UPDATE BookCategories SET    Updated_At = @currentDateTimes, Name = @name, Description = @description , ImageUrl = @imageUrl WHERE Id = @id;
+    END
+    ELSE IF @Operation = 'Delete'
+    BEGIN
+        DELETE FROM BookCategories WHERE Id = @id;
+    END
+END
+
+
+alter PROCEDURE GetMethodLists
+ @Operation NVARCHAR(100)  -- Operation: 'Create', 'Read', 'Update', or 'Delete'
+as
+BEGIN
+    SET NOCOUNT ON;
+    IF @Operation = 'BookCategories'
+    BEGIN
+         SELECT Id,Name  FROM BookCategories 
+    END
+    ELSE IF @Operation = 'FarqaCategories'
+    BEGIN
+        SELECT Id,Name FROM FarqaCategories 
+    END
+    ELSE IF @Operation = 'GetScholars' 
+    BEGIN
+     SELECT Id,Name FROM Scholars 
+    END
+    ELSE IF @Operation = 'GetBookDetails'
+    BEGIN
+         SELECT Id,Name FROM BookDetails 
+    END
+	
+	 ELSE IF @Operation = 'GetBookImages'
+    BEGIN
+         SELECT Id,Name FROM BookImages
+    END
+		 ELSE IF @Operation = 'GetMadrassaBooks'
+    BEGIN
+         SELECT Id,Name FROM MadrassaBooks
+    END
+			 ELSE IF @Operation = 'GetMonthlyMagzines'
+    BEGIN
+         SELECT Id,Name FROM MonthlyMagzines
+    END
+	 ELSE IF @Operation = 'GetNews'
+    BEGIN
+         SELECT * FROM News
+    END
+	
+END
+
+
+ALTER proc [dbo].[YourStoredProcedureName]
+as 
+begin 
+
+
+select * from News
+end
+
+GetMethodLists @Operation = 'BookCategories' 

@@ -18,6 +18,11 @@ public  class BookCategoryServices : IBookCategoryServices
          return await _unitOfWork.IBookCategory.BookCategoryAlreadyExit(name);
     }
 
+    public async Task<List<BookCategory>> BookCategoryCrudSqlQuery(BookCategory model, string Operation)
+    {
+       return   await _unitOfWork.IBookCategory.BookCategoryCrudSqlQuery(model, Operation);
+    }
+
     public async Task<BookCategory> Create(BookCategory model)
     {
         model.Updated_At = null;

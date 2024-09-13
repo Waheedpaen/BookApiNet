@@ -1,4 +1,5 @@
-﻿using EntitiesClasses.Entities;
+﻿using EntitiesClasses.CommonClasses;
+using EntitiesClasses.Entities;
 using HelperData;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,67 @@ public class LookUpRepository : ILookUpRepository
         return await Context.Set<BookCategory>().ToListAsync();
     }
 
+    //public async Task<List<object>> ExecuteQuery (string Operation )
+    //{
+    //    switch (Operation)
+    //    {
+    //        case "BookCategories":
+    //            return await Context.Set<BookCategory>()
+    //            .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation ).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "FarqaCategories":
+    //            return await Context.Set<FarqaCategory>()
+    //                 .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "GetScholars":
+    //            return await Context.Set<Scholar>()
+    //            .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "GetBookDetails":
+    //            return await Context.Set<BookDetail>()
+    //                .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "GetBookImages":
+    //            return await Context.Set<BookImage>()
+    //               .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "GetMadrassaBooks":
+    //            return await Context.Set<MadrassaBook>()
+    //           .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "GetMonthlyMagzines":
+    //            return await Context.Set<MonthlyMagzine>()
+    //        .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+    //        case "GetNews":
+    //            return await Context.Set<News>()
+    //           .FromSqlRaw("dbo.GetMethodLists @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync<object>();
+
+    //        // Add cases for other operations as needed
+    //        default:
+    //            throw new ArgumentException("Invalid operation specified.");
+    //    }
+    //}
+    public async Task<List<object>> ExecuteQuery(string Operation)
+    {
+        switch (Operation)
+        {
+            case "BookCategories":
+                return await Context.Set<BookCategory>().ToListAsync<object>();
+            case "FarqaCategories":
+                return await Context.Set<FarqaCategory>().ToListAsync<object>();
+            case "GetScholars":
+                return await Context.Set<Scholar>().ToListAsync<object>();
+            case "GetBookDetails":
+                return await Context.Set<BookDetail>().ToListAsync<object>();
+            case "GetBookImages":
+                return await Context.Set<BookImage>().ToListAsync<object>();
+            case "GetMadrassaBooks":
+                return await Context.Set<MadrassaBook>().ToListAsync<object>();
+            case "GetMonthlyMagzines":
+                return await Context.Set<MonthlyMagzine>().ToListAsync<object>();
+            case "GetNews":
+                return await Context.Set<News>().ToListAsync<object>();
+
+            // Add cases for other operations as needed
+            default:
+                throw new ArgumentException("Invalid operation specified.");
+        }
+    }
+
     public async Task<List<FarqaCategory>> FarqaCategories()
     {
         //return await Context.Set<FarqaCategory>().Include(data => data.BookCategory).ToListAsync();
@@ -53,6 +115,12 @@ public class LookUpRepository : ILookUpRepository
     public async Task<List<MadrassaBook>> GetMadrassaBooks()
     {
         return await Context.Set<MadrassaBook>().ToListAsync();
+    }
+
+    public async Task<List<BookCategory>> GetMethodLists(string @Operation)
+    {
+        return await Context.Set<BookCategory>().FromSqlRaw("dbo.CRUD_News @Operation = {0}", @Operation).IgnoreQueryFilters().ToListAsync();
+
     }
 
     public async Task<List<Scholar>> GetScholars()

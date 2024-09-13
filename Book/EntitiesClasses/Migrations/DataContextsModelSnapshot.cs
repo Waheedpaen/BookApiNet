@@ -84,7 +84,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bigint");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -115,7 +114,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -147,7 +145,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -182,7 +179,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<int>("ScholarId")
@@ -226,7 +222,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -280,7 +275,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -357,7 +351,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -397,7 +390,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -425,7 +417,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -544,7 +535,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -618,7 +608,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("varchar(900)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<DateTime?>("Updated_At")
@@ -671,7 +660,6 @@ namespace EntitiesClasses.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<bool?>("Offline")

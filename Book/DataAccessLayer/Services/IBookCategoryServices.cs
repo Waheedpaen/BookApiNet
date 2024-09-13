@@ -21,6 +21,7 @@ namespace DataAccessLayer.Services
         public Task<BookCategory> BookCategoryAlreadyExit(string name);
         Task<PagedResult<BookCategory>> SearchAndPaginateAsync(SearchAndPaginateOptions options);
         Task<List<BookCategory>> GetSuggestions(string searchword);
+        Task<List<BookCategory>> BookCategoryCrudSqlQuery(BookCategory model, string Operation);
     }
 
 

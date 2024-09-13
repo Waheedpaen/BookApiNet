@@ -42,7 +42,14 @@ public class AutoMappers : Profile
         //       .ForMember(dest =>
         //       dest.Name,
         //       opt => opt.MapFrom(src => src.)).ReverseMap();
-
+        CreateMap<BookCategory, CommonGetListDto>().ReverseMap();
+        CreateMap<News, CommonGetListDto>().ReverseMap();
+        CreateMap<AudioScholars, CommonGetListDto>().ReverseMap();
+        CreateMap<AudioDetail, CommonGetListDto>().ReverseMap();
+        CreateMap<MadrassaClass, CommonGetListDto>().ReverseMap();
+        CreateMap<BookDetail, CommonGetListDto>().ReverseMap();
+        CreateMap<BookImage, CommonGetListDto>().ReverseMap();  
+         CreateMap<FarqaCategory, CommonGetListDto>().ReverseMap();
     }
 
 

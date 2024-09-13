@@ -1,4 +1,5 @@
-﻿using ImplementDAL.Reporsitory;
+﻿using EntitiesClasses.DataContext;
+using ImplementDAL.Reporsitory;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,11 @@ public class BookCategoryRepository : Reporsitory<BookCategory, int>, IBookCateg
     public async Task<BookCategory> BookCategoryAlreadyExit(string name)
     {
     return await DataContexts.Set<BookCategory>().FirstOrDefaultAsync(data => data.Name == name); 
+    }
+
+    public async Task<List<BookCategory>> BookCategoryCrudSqlQuery(BookCategory model, string Operation)
+    {
+     return   await DataContexts.Set<BookCategory>().FromSqlRaw("dbo.CRUD_News @Operation = {0}, @id = {1},  @description = {2},@imageUrl = {3}", @Operation, model.Id, model.Description,model.ImageUrl).IgnoreQueryFilters().ToListAsync();
     }
 
     public async Task<List<BookCategory>> GetSuggestions(string searchword)

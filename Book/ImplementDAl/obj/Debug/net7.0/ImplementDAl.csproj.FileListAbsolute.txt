@@ -42,8 +42,8 @@ C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\Imple
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ImplementDAl.AssemblyInfo.cs
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ImplementDAl.csproj.CoreCompileInputs.cache
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ImplementDAl.sourcelink.json
-C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ImplementDAl.csproj.CopyComplete
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ImplementDAl.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\refint\ImplementDAl.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ImplementDAl.pdb
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\ref\ImplementDAl.dll
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\ImplementDAl\obj\Debug\net7.0\Implemen.928EB02A.Up2Date

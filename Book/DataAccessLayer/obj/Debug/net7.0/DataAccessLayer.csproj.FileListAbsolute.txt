@@ -38,8 +38,8 @@ C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\Da
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.sourcelink.json
-C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CopyComplete
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
 C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
+C:\Users\Wa\Documents\GitHub\BookApiNet\Book\DataAccessLayer\obj\Debug\net7.0\DataAcce.E67BD773.Up2Date

@@ -1,4 +1,5 @@
-﻿using EntitiesClasses.DataContext;
+﻿using EntitiesClasses.CommonClasses;
+using EntitiesClasses.DataContext;
 using EntitiesClasses.Entities;
 using HelperData;
 using Microsoft.AspNetCore.Http;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.IRepositories;
  
-    public interface ILookUpRepository
+    public interface ILookUpRepository 
     {
      Task<List<AudioScholars>> AudioScholars();
     Task<List<User>> Users();
@@ -25,8 +26,8 @@ namespace DataAccessLayer.IRepositories;
     Task<List<MadrassaBook>> GetMadrassaBooks();
     Task<List<MonthlyMagzine>> MonthlyMagzines();
     Task<List<News>> News();
-    Task<List<News>> NewsSql();
-
+    Task<List<News>> NewsSql(); 
+    Task<List<object>> ExecuteQuery(string Operation);
 }
 
 

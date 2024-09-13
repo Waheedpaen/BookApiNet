@@ -10,6 +10,7 @@ namespace DataAccessLayer.IRepositories;
 public interface IBookCategoryRepository : IRepository<BookCategory, int>
 {
     public Task<BookCategory> BookCategoryAlreadyExit(string name);
+ Task<List<BookCategory>> BookCategoryCrudSqlQuery(BookCategory model, string Operation) ;
     Task<List<BookCategory>> GetSuggestions(string searchword);
 }
 

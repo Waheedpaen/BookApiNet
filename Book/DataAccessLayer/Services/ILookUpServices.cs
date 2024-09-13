@@ -21,7 +21,10 @@ namespace DataAccessLayer.Services
         Task<List<News>> News();
         Task<List<User>> Users();
         Task<List<News>> NewsSql();
-     
+
+        Task<List<object>> ExecuteQuery(string Operation);
+
+
 
         }
 }
