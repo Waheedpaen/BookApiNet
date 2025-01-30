@@ -1,5 +1,6 @@
 ﻿
 
+using DataAccessLayer.IUnitofWork;
 using Microsoft.EntityFrameworkCore;
 
 namespace ImplementDAl.Reporsitory;
@@ -56,4 +57,6 @@ public class BookDetailRepository :Reporsitory<BookDetail, int>, IBookDetailRepo
     {
         return await Context.Set<BookImage>().Where(data => data.BookDetailId == Id).ToListAsync();
     }
+
+  
 }

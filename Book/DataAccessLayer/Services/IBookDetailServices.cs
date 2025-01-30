@@ -21,6 +21,7 @@ namespace DataAccessLayer.Services;
     Task<List<BookImage>> GetBookImagesByBookDetails(int Id);
     #endregion
 
+    Task<object> DeleteFromDatabase(BookDetail model);
     #region BookImagesCrud
     Task<BookImage> DeleteBookImage(BookImage model);
     Task<BookImage> GetBookImageById(int? Id);

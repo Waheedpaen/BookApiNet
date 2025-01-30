@@ -5757,19 +5757,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wa\\.nuget\\packages\\": {}
+    "C:\\Users\\Waheed Ullah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\Wa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\obj\\",
+      "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\Waheed Ullah\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Wa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Waheed Ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5777,20 +5782,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
             },
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj"
             },
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj"
             }
           }
         }
@@ -5801,7 +5807,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -5818,13 +5826,101 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.SqlClient' 5.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "Microsoft.Data.SqlClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 6.21.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Drawing.Common' 5.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Formats.Asn1' 5.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
+      "libraryId": "System.Formats.Asn1",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.21.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

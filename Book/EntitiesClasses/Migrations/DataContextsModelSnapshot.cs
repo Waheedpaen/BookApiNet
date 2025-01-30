@@ -774,7 +774,8 @@ namespace EntitiesClasses.Migrations
                 {
                     b.HasOne("EntitiesClasses.Entities.BookDetail", "BookDetail")
                         .WithMany("BookImages")
-                        .HasForeignKey("BookDetailId");
+                        .HasForeignKey("BookDetailId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("BookDetail");
                 });

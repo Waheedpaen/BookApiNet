@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "plow6V1QDM4vu7I3SQnBfskCyQtiBO0A8SrTlkFMryw=",
+  "Hash": "hSkB8DPKHWLy6MYtARj5z7rQ99g7RSiA/dtIoMkpRZc=",
   "Source": "BookApplication",
   "BasePath": "_content/BookApplication",
   "Mode": "Default",
@@ -10,10 +10,1867 @@
     {
       "Name": "BookApplication\\wwwroot",
       "Source": "BookApplication",
-      "ContentRoot": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
       "BasePath": "_content/BookApplication",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\50273790-bf71-487b-8fd6-6c4ea390f3d8",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "AudioDetail/50273790-bf71-487b-8fd6-6c4ea390f3d8#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wyy4bay2lj",
+      "Integrity": "CH3FjoSsQKICu17K6VHLTXDc5ic9sQgH0NiXm7s24xA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AudioDetail\\50273790-bf71-487b-8fd6-6c4ea390f3d8"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "MonthlyMagzine/1efdba99-1232-44bb-8b20-1f1f5177c5ac#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MonthlyMagzine\\1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "MonthlyMagzine/4bf9ac60-9c34-4ba6-8973-eded2753ea00#[.{fingerprint}]?.nsh",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uiiyaamjn4",
+      "Integrity": "RmTU1xE81HNq/FL95wUPFLn3pd17MjHweN69bHzNlto=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MonthlyMagzine\\4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/169e1df5-7bb8-4c5b-9f15-cab11f92beb2#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\221841cb-4650-49a1-9502-776d0f38553f.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/221841cb-4650-49a1-9502-776d0f38553f#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\221841cb-4650-49a1-9502-776d0f38553f.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/2234565d-7d44-4a79-ac96-4a40ef49a8ca#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "98aecv2dkp",
+      "Integrity": "SfOm1sE09twz4/I/9G9O7LNsagLZOsGFB3WgBJyA1I4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\23f634ba-997b-4f13-9f26-b85fb11846bc.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/23f634ba-997b-4f13-9f26-b85fb11846bc#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\23f634ba-997b-4f13-9f26-b85fb11846bc.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3b94599b-0255-4f52-81b8-33c6e311c424.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/3b94599b-0255-4f52-81b8-33c6e311c424#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3b94599b-0255-4f52-81b8-33c6e311c424.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/59dfb0bd-58ad-4342-aba9-b5afe344b5b0#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/6129a9b6-2504-4f3c-9143-c042b0f5a77d#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzsxr1soqr",
+      "Integrity": "CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/990bc568-e3ee-46cc-858e-6d530e06c8f5#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sba2h0rw2v",
+      "Integrity": "yAGyvflrNv1gu23mOs75X3hjPRoylnr2jfF4tWs22cU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\9dd923a2-0489-42b7-b599-bfc556796a9c.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/9dd923a2-0489-42b7-b599-bfc556796a9c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9dd923a2-0489-42b7-b599-bfc556796a9c.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/a61bcec3-c09e-4d28-8c6f-9bac875cb7cb#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/c59fa705-4742-4cae-b9b3-92ec63a1e4b5#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tqufh2puf2",
+      "Integrity": "m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/da596a5c-6c55-4749-b1c6-b72d0cade5ce#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s5bhbi0hva",
+      "Integrity": "QPoAQKxkobDJPdi43BhVdaWqIqaLkfSmG0667boRyP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "uploads/feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzsxr1soqr",
+      "Integrity": "CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf"
+    },
+    {
+      "Identity": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\wwwroot",
+      "SourceId": "BookApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\",
+      "BasePath": "_content/BookApplication",
+      "RelativePath": "wwwroot#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\wwwroot"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "AudioDetail/50273790-bf71-487b-8fd6-6c4ea390f3d8",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\50273790-bf71-487b-8fd6-6c4ea390f3d8",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1261612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH3FjoSsQKICu17K6VHLTXDc5ic9sQgH0NiXm7s24xA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 09:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH3FjoSsQKICu17K6VHLTXDc5ic9sQgH0NiXm7s24xA="
+        }
+      ]
+    },
+    {
+      "Route": "AudioDetail/50273790-bf71-487b-8fd6-6c4ea390f3d8.wyy4bay2lj",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\50273790-bf71-487b-8fd6-6c4ea390f3d8",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1261612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH3FjoSsQKICu17K6VHLTXDc5ic9sQgH0NiXm7s24xA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 09:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wyy4bay2lj"
+        },
+        {
+          "Name": "label",
+          "Value": "AudioDetail/50273790-bf71-487b-8fd6-6c4ea390f3d8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH3FjoSsQKICu17K6VHLTXDc5ic9sQgH0NiXm7s24xA="
+        }
+      ]
+    },
+    {
+      "Route": "MonthlyMagzine/1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 10:03:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "MonthlyMagzine/1efdba99-1232-44bb-8b20-1f1f5177c5ac.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 10:03:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "MonthlyMagzine/1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "MonthlyMagzine/4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmTU1xE81HNq/FL95wUPFLn3pd17MjHweN69bHzNlto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 09:59:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RmTU1xE81HNq/FL95wUPFLn3pd17MjHweN69bHzNlto="
+        }
+      ]
+    },
+    {
+      "Route": "MonthlyMagzine/4bf9ac60-9c34-4ba6-8973-eded2753ea00.uiiyaamjn4.nsh",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmTU1xE81HNq/FL95wUPFLn3pd17MjHweN69bHzNlto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 09:59:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uiiyaamjn4"
+        },
+        {
+          "Name": "label",
+          "Value": "MonthlyMagzine/4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RmTU1xE81HNq/FL95wUPFLn3pd17MjHweN69bHzNlto="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 14:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/169e1df5-7bb8-4c5b-9f15-cab11f92beb2.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 14:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/221841cb-4650-49a1-9502-776d0f38553f.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\221841cb-4650-49a1-9502-776d0f38553f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 13:47:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/221841cb-4650-49a1-9502-776d0f38553f.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\221841cb-4650-49a1-9502-776d0f38553f.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 13:47:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/221841cb-4650-49a1-9502-776d0f38553f.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2234565d-7d44-4a79-ac96-4a40ef49a8ca.98aecv2dkp.PNG",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SfOm1sE09twz4/I/9G9O7LNsagLZOsGFB3WgBJyA1I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "98aecv2dkp"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SfOm1sE09twz4/I/9G9O7LNsagLZOsGFB3WgBJyA1I4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SfOm1sE09twz4/I/9G9O7LNsagLZOsGFB3WgBJyA1I4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SfOm1sE09twz4/I/9G9O7LNsagLZOsGFB3WgBJyA1I4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/23f634ba-997b-4f13-9f26-b85fb11846bc.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\23f634ba-997b-4f13-9f26-b85fb11846bc.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 14:37:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/23f634ba-997b-4f13-9f26-b85fb11846bc.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\23f634ba-997b-4f13-9f26-b85fb11846bc.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 14:37:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/23f634ba-997b-4f13-9f26-b85fb11846bc.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3b94599b-0255-4f52-81b8-33c6e311c424.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3b94599b-0255-4f52-81b8-33c6e311c424.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 14:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3b94599b-0255-4f52-81b8-33c6e311c424.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3b94599b-0255-4f52-81b8-33c6e311c424.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 14:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3b94599b-0255-4f52-81b8-33c6e311c424.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 16:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/59dfb0bd-58ad-4342-aba9-b5afe344b5b0.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 16:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:44:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6129a9b6-2504-4f3c-9143-c042b0f5a77d.uzsxr1soqr.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:44:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzsxr1soqr"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yAGyvflrNv1gu23mOs75X3hjPRoylnr2jfF4tWs22cU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yAGyvflrNv1gu23mOs75X3hjPRoylnr2jfF4tWs22cU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/990bc568-e3ee-46cc-858e-6d530e06c8f5.sba2h0rw2v.PNG",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yAGyvflrNv1gu23mOs75X3hjPRoylnr2jfF4tWs22cU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sba2h0rw2v"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yAGyvflrNv1gu23mOs75X3hjPRoylnr2jfF4tWs22cU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9dd923a2-0489-42b7-b599-bfc556796a9c.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\9dd923a2-0489-42b7-b599-bfc556796a9c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:32:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9dd923a2-0489-42b7-b599-bfc556796a9c.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\9dd923a2-0489-42b7-b599-bfc556796a9c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:32:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9dd923a2-0489-42b7-b599-bfc556796a9c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:51:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c59fa705-4742-4cae-b9b3-92ec63a1e4b5.tqufh2puf2.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:51:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqufh2puf2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m61giXlsCly4TVsA8aqEW7dDKaa8AggJlLXglza2HlU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPoAQKxkobDJPdi43BhVdaWqIqaLkfSmG0667boRyP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:18:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPoAQKxkobDJPdi43BhVdaWqIqaLkfSmG0667boRyP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/da596a5c-6c55-4749-b1c6-b72d0cade5ce.s5bhbi0hva.PNG",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPoAQKxkobDJPdi43BhVdaWqIqaLkfSmG0667boRyP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 17:18:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5bhbi0hva"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPoAQKxkobDJPdi43BhVdaWqIqaLkfSmG0667boRyP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.uzsxr1soqr.pdf",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzsxr1soqr"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CnCIiTn9lchWDOpTsgoyUQ6pgpypYcdJPvmpV0VeQt8="
+        }
+      ]
+    },
+    {
+      "Route": "wwwroot",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\wwwroot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 09:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "wwwroot.5ipweew5fc",
+      "AssetFile": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\wwwroot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 09:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "wwwroot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
 }

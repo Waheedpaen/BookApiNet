@@ -118,5 +118,11 @@ public class BookDetailServices : IBookDetailServices
     {
         return await _unitOfWork.IBookDetailRepository.GetBookImagesByBookDetails(Id);
     }
+    public async Task<object> DeleteFromDatabase(BookDetail model)
+    {
+        _unitOfWork.IBookDetailRepository.Remove(model);
+        await _unitOfWork.CommitAsync();
+        return model;
+    }
 }
  

@@ -39,7 +39,7 @@ public class BookDetailController : ControllerBase
         bookDetail.Name = model.Name;
         if (bookDetail != null)
         {
-            await _bookDetailServices.SaveBookDetail(bookDetail);
+         
             foreach (var item in model.BookImages)
             {
                 if (item.PdfFile == null || item.PdfFile.Length <= 0)
@@ -65,10 +65,12 @@ public class BookDetailController : ControllerBase
                     BookDetailId = bookDetail.Id,
                     Image = item.Image,
                 };
-                await _bookDetailServices.SaveBookImages(imageDetail);
+                //this code save one by one... ,net save enity with once too . no need make separete method for save
+                //await _bookDetailServices.SaveBookImages(imageDetail);
 
+                bookDetail.BookImages.Add(imageDetail);
             }
-
+            await _bookDetailServices.SaveBookDetail(bookDetail);
         }
         return Ok(new { Success = true, Message = CustomMessage.Added });
     }
@@ -174,13 +176,15 @@ public class BookDetailController : ControllerBase
         var obj = await  _bookDetailServices.Get(Id);
         if (obj != null)
         {
-            
-            await _bookDetailServices.DeleteBookDetail(obj);
-            foreach (var item in obj.BookImages)
-            {
-                var deleteBookImageId = await _bookDetailServices.GetBookImageById(item.Id);
-                await _bookDetailServices.DeleteBookImages(deleteBookImageId);
-            }
+
+            await _bookDetailServices.DeleteFromDatabase(obj);
+
+            //await _bookDetailServices.DeleteBookDetail(obj);
+            //foreach (var item in obj.BookImages)
+            //{
+            //    var deleteBookImageId = await _bookDetailServices.GetBookImageById(item.Id);
+            //    await _bookDetailServices.DeleteBookImages(deleteBookImageId);
+            //}
             return Ok(new { Success = true, Message = CustomMessage.Deleted });
         }
         else
@@ -201,79 +205,113 @@ public class BookDetailController : ControllerBase
         if (bookDetail != null)
         {
             var detailBookOldData = await _bookDetailServices.Get(bookDetail.Id);
-            await _bookDetailServices.UpdateBookDetail(detailBookOldData, bookDetail);
+         if (bookDetail.Id != null)
+            {
+                await _bookDetailServices.DeleteFromDatabase(detailBookOldData);
+            }
+            //await _bookDetailServices.UpdateBookDetail(detailBookOldData, bookDetail); we did not need it because first we deleted this all record than we save it 
+            //foreach (var item in model.BookImages)   
+            //{
+
+            //    //if(item.IsDeleted == true) {
+            //    //    var bookImages = await _bookDetailServices.GetBookImageById(item.Id);
+            //    //    await _bookDetailServices.DeleteBookImage(bookImages);
+            //    //}
+            //    if (item.Id == null)
+            //    {
+            //        var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
+            //        var pdfFileName = Guid.NewGuid().ToString() + Path.GetExtension(item.PdfFile.FileName);
+            //        var pdfFilePath = Path.Combine(uploadsFolder, pdfFileName);
+            //        if (!Directory.Exists(uploadsFolder))
+            //        {
+            //            Directory.CreateDirectory(uploadsFolder);
+            //        }
+            //        using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
+            //        {
+            //            await item.PdfFile.CopyToAsync(pdfStream);
+            //        }
+            //        var imageDetail = new BookImage()
+            //        {
+            //            FileNamePDF = pdfFileName,
+            //            FilePathPDF = pdfFilePath,
+            //            BookDetailId = model.Id,
+            //            Name = item.Name,
+            //            Image = item.Image,
+            //        };
+            //        await _bookDetailServices.SaveBookImages(imageDetail);
+            //    }
+            //    else
+
+            //    {
+            //        var bookImageId = await _bookDetailServices.GetBookImageById(item.Id);
+            //        if (item.IsDeleted == false) {
+
+            //            var updateBookImageData = new BookImage()
+            //            {
+            //                Name = item.Name,
+            //                Image = item.Image,
+            //            };
+            //            await _bookDetailServices.UpdateBookImagesForFile(bookImageId, updateBookImageData);
+            //        }
+
+
+            //    //    else
+            //    //    {
+            //    //        var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
+            //    //        var pdfFileName = Guid.NewGuid().ToString() + Path.GetExtension(item.PdfFile.FileName);
+            //    //        var pdfFilePath = Path.Combine(uploadsFolder, pdfFileName);
+            //    //        if (!Directory.Exists(uploadsFolder))
+            //    //        {
+            //    //            Directory.CreateDirectory(uploadsFolder);
+            //    //        }
+            //    //        using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
+            //    //        {
+            //    //            await item.PdfFile.CopyToAsync(pdfStream);
+            //    //        }
+            //    //        var updateBookImage = new BookImage()
+            //    //        {
+            //    //            FileNamePDF = pdfFileName,
+            //    //            FilePathPDF = pdfFilePath,
+            //    //            BookDetailId = model.Id,
+            //    //            Name = item.Name,
+            //    //            Image = item.Image,
+            //    //        };
+            //    //        await _bookDetailServices.UpdateBookImages(bookImageId, updateBookImage);
+            //    //    }
+
+            //   }
+            //}
             foreach (var item in model.BookImages)
             {
-
-                if(item.IsDeleted == true) {
-                    var bookImages = await _bookDetailServices.GetBookImageById(item.Id);
-                    await _bookDetailServices.DeleteBookImage(bookImages);
-                }
-                if (item.Id == null)
+                if (item.PdfFile == null || item.PdfFile.Length <= 0)
                 {
-                    var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
-                    var pdfFileName = Guid.NewGuid().ToString() + Path.GetExtension(item.PdfFile.FileName);
-                    var pdfFilePath = Path.Combine(uploadsFolder, pdfFileName);
-                    if (!Directory.Exists(uploadsFolder))
-                    {
-                        Directory.CreateDirectory(uploadsFolder);
-                    }
-                    using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
-                    {
-                        await item.PdfFile.CopyToAsync(pdfStream);
-                    }
-                    var imageDetail = new BookImage()
-                    {
-                        FileNamePDF = pdfFileName,
-                        FilePathPDF = pdfFilePath,
-                        BookDetailId = model.Id,
-                        Name = item.Name,
-                        Image = item.Image,
-                    };
-                    await _bookDetailServices.SaveBookImages(imageDetail);
+                    return BadRequest("No file or empty file provided.");
                 }
-                else
-
+                var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
+                var pdfFileName = Guid.NewGuid().ToString() + Path.GetExtension(item.PdfFile.FileName);
+                var pdfFilePath = Path.Combine(uploadsFolder, pdfFileName);
+                if (!Directory.Exists(uploadsFolder))
                 {
-                    var bookImageId = await _bookDetailServices.GetBookImageById(item.Id);
-                    if (item.IsDeleted == false) {
-                      
-                        var updateBookImageData = new BookImage()
-                        {
-                            Name = item.Name,
-                            Image = item.Image,
-                        };
-                        await _bookDetailServices.UpdateBookImagesForFile(bookImageId, updateBookImageData);
-                    }
-                 
-                 
-                //    else
-                //    {
-                //        var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
-                //        var pdfFileName = Guid.NewGuid().ToString() + Path.GetExtension(item.PdfFile.FileName);
-                //        var pdfFilePath = Path.Combine(uploadsFolder, pdfFileName);
-                //        if (!Directory.Exists(uploadsFolder))
-                //        {
-                //            Directory.CreateDirectory(uploadsFolder);
-                //        }
-                //        using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
-                //        {
-                //            await item.PdfFile.CopyToAsync(pdfStream);
-                //        }
-                //        var updateBookImage = new BookImage()
-                //        {
-                //            FileNamePDF = pdfFileName,
-                //            FilePathPDF = pdfFilePath,
-                //            BookDetailId = model.Id,
-                //            Name = item.Name,
-                //            Image = item.Image,
-                //        };
-                //        await _bookDetailServices.UpdateBookImages(bookImageId, updateBookImage);
-                //    }
-                   
-               }
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+                using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
+                {
+                    await item.PdfFile.CopyToAsync(pdfStream);
+                }
+                var imageDetail = new BookImage()
+                {
+                    FileNamePDF = pdfFileName,
+                    FilePathPDF = pdfFilePath,
+                    Name = item.Name,
+                    BookDetailId = bookDetail.Id,
+                    Image = item.Image,
+                };
+                //this code save one by one... ,net save enity with once too . no need make separete method for save
+                //await _bookDetailServices.SaveBookImages(imageDetail);
+
+                bookDetail.BookImages.Add(imageDetail);
             }
-
+            await _bookDetailServices.SaveBookDetail(bookDetail);
         }
         return Ok(new { Success = true, Message = CustomMessage.Added });
     }

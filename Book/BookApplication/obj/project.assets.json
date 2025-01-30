@@ -88,15 +88,6 @@
           }
         }
       },
-      "Microsoft.AspNet.Cors/5.2.9": {
-        "type": "package",
-        "compile": {
-          "lib/net45/System.Web.Cors.dll": {}
-        },
-        "runtime": {
-          "lib/net45/System.Web.Cors.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -876,6 +867,18 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -2227,20 +2230,6 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNet.Cors/5.2.9": {
-      "sha512": "LUjfvaOu0q9bz523CYmIE06Q9EttrpKuRLm3T83spF6oX+dYiFlLJFLm4RveGKq/puRJC5KTnXdbWGLqM783jA==",
-      "type": "package",
-      "path": "microsoft.aspnet.cors/5.2.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NET.icon.png",
-        "NET_Library_EULA_ENU.txt",
-        "lib/net45/System.Web.Cors.dll",
-        "microsoft.aspnet.cors.5.2.9.nupkg.sha512",
-        "microsoft.aspnet.cors.nuspec"
-      ]
-    },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "sha512": "VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
       "type": "package",
@@ -2983,6 +2972,31 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.0": {
+      "sha512": "DtLJ0usm8NdPbRDxvNUBAYgnvqhodr/HPb461I+jrgHw5ZKF0vRTaokNth2Zy9xiw1ZTpT4c+S40f7AHWakODg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/7.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -5472,7 +5486,6 @@
       "EntitiesClasses >= 1.0.0",
       "HelperDatas >= 1.0.0",
       "ImplementDAl >= 1.0.0",
-      "Microsoft.AspNet.Cors >= 5.2.9",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.2",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 7.0.2",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
@@ -5483,6 +5496,7 @@
       "Microsoft.AspNetCore.SignalR.Protocols.Json >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.12",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Newtonsoft.Json.Bson >= 1.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0",
@@ -5490,19 +5504,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wa\\.nuget\\packages\\": {}
+    "C:\\Users\\Waheed Ullah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\BookApplication.csproj",
+      "projectUniqueName": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\BookApplication.csproj",
       "projectName": "BookApplication",
-      "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\BookApplication.csproj",
-      "packagesPath": "C:\\Users\\Wa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\obj\\",
+      "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\BookApplication.csproj",
+      "packagesPath": "C:\\Users\\Waheed Ullah\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Wa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Waheed Ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5510,26 +5529,27 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
             },
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj"
             },
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ImplementDAl\\ImplementDAl.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ImplementDAl\\ImplementDAl.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\ImplementDAl\\ImplementDAl.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\ImplementDAl\\ImplementDAl.csproj"
             },
-            "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj"
+            "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj"
             }
           }
         }
@@ -5540,17 +5560,15 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
       }
     },
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "Microsoft.AspNet.Cors": {
-            "target": "Package",
-            "version": "[5.2.9, )"
-          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[7.0.2, )"
@@ -5593,6 +5611,12 @@
             "target": "Package",
             "version": "[7.0.12, )"
           },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
@@ -5617,6 +5641,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5625,17 +5655,107 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "NU1701",
+      "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Cors 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.Cors",
+      "message": "Package 'Azure.Identity' 1.7.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.7.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.WebSockets' 2.2.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6px8-22w5-w334",
+      "libraryId": "Microsoft.AspNetCore.WebSockets",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Data.SqlClient' 5.1.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "Microsoft.Data.SqlClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Formats.Asn1' 5.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
+      "libraryId": "System.Formats.Asn1",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.24.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.WebSockets.WebSocketProtocol' 4.5.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-6px8-22w5-w334",
+      "libraryId": "System.Net.WebSockets.WebSocketProtocol",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 7.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net7.0"
       ]

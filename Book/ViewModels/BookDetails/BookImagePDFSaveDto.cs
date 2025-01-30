@@ -12,7 +12,7 @@ namespace ViewModels.BookDetails
     {
         public int? Id { get; set; }
         public IFormFile? PdfFile { get; set; }
-        public string   Image { get; set; }
+        public string  ? Image { get; set; }
         public string  ? Name { get; set; }
         public bool? IsDeleted { get; set; } = false;
         public bool ? IsSaved { get; set; }

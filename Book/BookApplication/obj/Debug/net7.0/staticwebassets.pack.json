@@ -1,104 +1,80 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\08b16cc5-0f13-4e1c-8522-e50addf21cb7",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\AudioDetail\\50273790-bf71-487b-8fd6-6c4ea390f3d8",
+      "PackagePath": "staticwebassets\\AudioDetail"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\0fe7c008-2abf-4f50-849e-30e9d3f0bfb3.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\0fe7c008-2abf-4f50-849e-30e9d3f0bfb3.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf",
+      "PackagePath": "staticwebassets\\MonthlyMagzine\\1efdba99-1232-44bb-8b20-1f1f5177c5ac.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\54cc941e-8581-484a-a54c-87f7f42f233f.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\54cc941e-8581-484a-a54c-87f7f42f233f.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\MonthlyMagzine\\4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh",
+      "PackagePath": "staticwebassets\\MonthlyMagzine\\4bf9ac60-9c34-4ba6-8973-eded2753ea00.nsh"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\558fe1ae-0057-4494-80f3-6d168c16b0e2",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf",
+      "PackagePath": "staticwebassets\\uploads\\169e1df5-7bb8-4c5b-9f15-cab11f92beb2.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\5af8fb14-ea65-4eaf-8f0d-afbde36812dd",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\221841cb-4650-49a1-9502-776d0f38553f.pdf",
+      "PackagePath": "staticwebassets\\uploads\\221841cb-4650-49a1-9502-776d0f38553f.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\74308f23-b1a5-421d-a631-f03dabf38eb3",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG",
+      "PackagePath": "staticwebassets\\uploads\\2234565d-7d44-4a79-ac96-4a40ef49a8ca.PNG"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\756bd4cc-d243-4ecc-9b3a-bb8d5bbbeede",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\23f634ba-997b-4f13-9f26-b85fb11846bc.pdf",
+      "PackagePath": "staticwebassets\\uploads\\23f634ba-997b-4f13-9f26-b85fb11846bc.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\7922f673-f11b-4749-9380-1c9d69e6338d.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\7922f673-f11b-4749-9380-1c9d69e6338d.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3b94599b-0255-4f52-81b8-33c6e311c424.pdf",
+      "PackagePath": "staticwebassets\\uploads\\3b94599b-0255-4f52-81b8-33c6e311c424.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\805fba64-8fca-480d-95e1-db313c02816a",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf",
+      "PackagePath": "staticwebassets\\uploads\\3ef47259-e88b-4bc4-8d36-ce46c9d9f4d5.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\88bd39ef-21c3-4afd-97ae-1ac09ee3e464.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\88bd39ef-21c3-4afd-97ae-1ac09ee3e464.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf",
+      "PackagePath": "staticwebassets\\uploads\\59dfb0bd-58ad-4342-aba9-b5afe344b5b0.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\98c12d10-c949-4b0f-9ef8-958406017749.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\98c12d10-c949-4b0f-9ef8-958406017749.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\6129a9b6-2504-4f3c-9143-c042b0f5a77d.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\9f57e344-68e2-4704-97ed-a09b6f04be16",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG",
+      "PackagePath": "staticwebassets\\uploads\\990bc568-e3ee-46cc-858e-6d530e06c8f5.PNG"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\9f89c1de-d118-4ade-b1fc-3628e62d05c1.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\9f89c1de-d118-4ade-b1fc-3628e62d05c1.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\9dd923a2-0489-42b7-b599-bfc556796a9c.pdf",
+      "PackagePath": "staticwebassets\\uploads\\9dd923a2-0489-42b7-b599-bfc556796a9c.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\b3705fd7-7566-4293-865b-2a367cd5d4c0",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf",
+      "PackagePath": "staticwebassets\\uploads\\a61bcec3-c09e-4d28-8c6f-9bac875cb7cb.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\b38a9685-77e8-4ba9-b4b4-7aec6aa34b89.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\b38a9685-77e8-4ba9-b4b4-7aec6aa34b89.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf",
+      "PackagePath": "staticwebassets\\uploads\\c59fa705-4742-4cae-b9b3-92ec63a1e4b5.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\bead9167-539c-4e66-a509-75eb0746797b",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG",
+      "PackagePath": "staticwebassets\\uploads\\da596a5c-6c55-4749-b1c6-b72d0cade5ce.PNG"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\c41cf4ab-c056-4850-bbee-48214dbe55b8.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\c41cf4ab-c056-4850-bbee-48214dbe55b8.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\uploads\\feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\feecdd3f-3fe3-4fe4-a3f9-6b97d19b6f9d.pdf"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\d3e9b0c2-e2b9-4587-b21f-4a493b924941.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\d3e9b0c2-e2b9-4587-b21f-4a493b924941.jpg.jpg"
+      "Id": "D:\\GitHubProjects\\BookApiNet\\Book\\BookApplication\\wwwroot\\wwwroot",
+      "PackagePath": "staticwebassets"
     },
     {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\d481f271-d5d5-4f87-9c1e-73933c4219ba.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\d481f271-d5d5-4f87-9c1e-73933c4219ba.jpg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\d7c862c3-cc38-4818-8775-a6b817942c3f",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
-    },
-    {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\d8b4cace-8744-4e0b-bc82-d8f3d2bb289d",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
-    },
-    {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\ddf99e08-cc7b-40e6-8261-5319cf3bbb5e",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
-    },
-    {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\f14492c0-bc08-4614-8414-0585f4451943.jpg.jpg",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio\\f14492c0-bc08-4614-8414-0585f4451943.jpg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\f3f1f7ea-a85b-4655-b9a2-ccdc9946525c",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
-    },
-    {
-      "Id": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\BookApplication\\wwwroot\\SaveMessageForaudio\\f5cba614-07a9-4004-8c4d-a99ebe3a8e17",
-      "PackagePath": "staticwebassets\\SaveMessageForaudio"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BookApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BookApplication.Microsoft.AspNetCore.StaticWebAssets.props",

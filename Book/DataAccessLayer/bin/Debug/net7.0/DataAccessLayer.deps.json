@@ -1035,7 +1035,10 @@
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
-          "EntitiesClasses.dll": {}
+          "EntitiesClasses.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "HelperDatas/1.0.0": {
@@ -1044,7 +1047,10 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
-          "HelperDatas.dll": {}
+          "HelperDatas.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ViewModels/1.0.0": {
@@ -1054,7 +1060,10 @@
           "EntitiesClasses": "1.0.0"
         },
         "runtime": {
-          "ViewModels.dll": {}
+          "ViewModels.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

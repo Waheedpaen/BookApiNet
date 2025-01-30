@@ -686,7 +686,10 @@
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
-          "EntitiesClasses.dll": {}
+          "EntitiesClasses.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

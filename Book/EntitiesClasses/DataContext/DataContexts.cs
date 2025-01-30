@@ -59,7 +59,14 @@ namespace EntitiesClasses.DataContext;
         modelBuilder.Entity<FarqaCategory>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));
         modelBuilder.Entity<Scholar>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));
         modelBuilder.Entity<BookDetail>().HasQueryFilter((d => EF.Property<bool>(d, "IsDeleted") == false));
+        modelBuilder.Entity<BookDetail>()
+// if deleed parenat and child automatlly by remove moethod do not need loops or logic to deleted .ef auto deleted it 
 
+// Configures the Prescription entity
+.HasMany(p => p. BookImages)          // Specifies that a Prescription can have multiple PrescriptionItems (one-to-many relationship)
+.WithOne(i => i. BookDetail)   // Each PrescriptionItem is associated with one Prescription
+.HasForeignKey(i => i.BookDetailId) // The foreign key in PrescriptionItem is PrescriptionId
+.OnDelete(DeleteBehavior.Cascade);
         base.OnModelCreating(modelBuilder);
     }
 

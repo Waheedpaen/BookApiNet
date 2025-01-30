@@ -13,9 +13,7 @@ namespace MobileManagementSystem.Extension
             Services.AddEndpointsApiExplorer();
             Services.AddControllersWithViews()
            .AddNewtonsoftJson(options =>
-          options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
-
-            .Services.AddCors(opt => {
+          options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore).Services.AddCors(opt => {
                 opt.AddDefaultPolicy(builder => {
                     builder.AllowAnyOrigin();
                     builder.AllowAnyMethod();

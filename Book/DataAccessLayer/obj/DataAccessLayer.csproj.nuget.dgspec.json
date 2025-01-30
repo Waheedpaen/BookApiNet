@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Wa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\DataAccessLayer\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Waheed Ullah\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\BookApiNet\\Book\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Wa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Waheed Ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
-                "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
+              "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
+                "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
               },
-              "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
-                "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj"
+              "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
+                "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj"
               },
-              "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj"
+              "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj"
               }
             }
           }
@@ -46,7 +51,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -63,26 +70,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
+    "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj",
         "projectName": "EntitiesClasses",
-        "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj",
-        "packagesPath": "C:\\Users\\Wa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj",
+        "packagesPath": "C:\\Users\\Waheed Ullah\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Wa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Waheed Ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,6 +107,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -104,7 +122,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -163,26 +183,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
+    "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj",
         "projectName": "HelperDatas",
-        "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj",
-        "packagesPath": "C:\\Users\\Wa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\HelperDatas\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\HelperDatas.csproj",
+        "packagesPath": "C:\\Users\\Waheed Ullah\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\BookApiNet\\Book\\HelperDatas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Wa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Waheed Ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,6 +220,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -204,7 +235,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -231,26 +264,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
+    "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj",
+        "projectUniqueName": "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj",
         "projectName": "ViewModels",
-        "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj",
-        "packagesPath": "C:\\Users\\Wa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\ViewModels\\obj\\",
+        "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Waheed Ullah\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubProjects\\BookApiNet\\Book\\ViewModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Wa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Waheed Ullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,14 +301,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
-                "projectPath": "C:\\Users\\Wa\\Documents\\GitHub\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
+              "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj": {
+                "projectPath": "D:\\GitHubProjects\\BookApiNet\\Book\\EntitiesClasses\\EntitiesClasses.csproj"
               }
             }
           }
@@ -276,7 +320,9 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "default"
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -303,12 +349,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.100-rc.2.24474.11, 9.0.100-rc.2.24474.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
         }
       }
     }
